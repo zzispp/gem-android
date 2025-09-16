@@ -74,9 +74,6 @@ class AssetChartViewModel @Inject constructor(
     private fun List<AssetLink>.toModel() = mapNotNull {
         return@mapNotNull when (it.name) {
             "coingecko" -> AssetMarketUIModel.Link(it.name, it.url, R.string.social_coingecko, R.drawable.coingecko)
-            "twitter" -> AssetMarketUIModel.Link(it.name, it.url, R.string.social_x, R.drawable.twitter)
-            "telegram" -> AssetMarketUIModel.Link(it.name, it.url, R.string.social_telegram, R.drawable.telegram)
-            "github" -> AssetMarketUIModel.Link(it.name, it.url, R.string.social_github, R.drawable.github)
             else -> null
         }
     }

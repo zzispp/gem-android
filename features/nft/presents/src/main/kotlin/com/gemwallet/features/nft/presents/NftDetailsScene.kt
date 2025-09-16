@@ -116,15 +116,11 @@ private fun LazyListScope.nftLinks(links: List<AssetLink>, onLinkClick: (String)
         links.filter { it.name != "website" }.sortedByDescending { it.name }.map {
             val (url, title, icon) = when (it.name) {
                 "coingecko" -> Triple(it.url, R.string.social_coingecko, R.drawable.coingecko)
-                "x", "twitter" -> Triple(it.url, R.string.social_x, R.drawable.twitter)
-                "telegram" -> Triple(it.url, R.string.social_telegram, R.drawable.telegram)
-                "github" -> Triple(it.url, R.string.social_github, R.drawable.github)
                 "instagram" -> Triple(it.url, R.string.social_instagram, R.drawable.instagram)
                 "opensea" -> Triple(it.url, R.string.social_opensea, R.drawable.opensea)
                 "magiceden" -> Triple(it.url, R.string.social_magiceden, R.drawable.magiceden)
                 "coinmarketcap" -> Triple(it.url, R.string.social_coinmarketcap, R.drawable.coinmarketcap)
                 "tiktok" -> Triple(it.url, R.string.social_tiktok, R.drawable.tiktok)
-                "discord" -> Triple(it.url, R.string.social_discord, R.drawable.discord)
                 else -> Triple(it.url, R.string.social_website, R.drawable.website)
             }
             PropertyItem(title, icon) { onLinkClick(url) }

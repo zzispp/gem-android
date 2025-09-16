@@ -162,24 +162,6 @@ fun SettingsScene(
             }
             HorizontalDivider(modifier = Modifier, thickness = 0.4.dp)
 
-            SubheaderItem(title = stringResource(id = R.string.settings_community))
-            LinkItem(title = stringResource(id = R.string.social_x), icon = R.drawable.twitter) {
-                uriHandler.open(context, Config().getSocialUrl(SocialUrl.X) ?: "")
-            }
-            LinkItem(title = stringResource(id = R.string.social_discord), icon = R.drawable.discord) {
-                uriHandler.open(context, Config().getSocialUrl(SocialUrl.DISCORD) ?: "")
-            }
-            LinkItem(title = stringResource(id = R.string.social_telegram), icon = R.drawable.telegram) {
-                uriHandler.open(context, Config().getSocialUrl(SocialUrl.TELEGRAM) ?: "")
-            }
-            LinkItem(title = stringResource(id = R.string.social_github), icon = R.drawable.github) {
-                uriHandler.open(context, Config().getSocialUrl(SocialUrl.GIT_HUB) ?: "")
-            }
-            LinkItem(title = stringResource(id = R.string.social_youtube), icon = R.drawable.youtube) {
-                uriHandler.open(context, Config().getSocialUrl(SocialUrl.YOU_TUBE) ?: "")
-            }
-            HorizontalDivider(modifier = Modifier, thickness = 0.4.dp)
-
             LinkItem(
                 title = stringResource(id = R.string.settings_help_center),
                 icon = R.drawable.settings_help_center,
@@ -187,19 +169,6 @@ fun SettingsScene(
                 uriHandler.open(
                     context,
                     Config().getDocsUrl(DocsUrl.START).toUri()
-                        .buildUpon()
-                        .appendQueryParameter("utm_source", "gemwallet_android")
-                        .build()
-                        .toString()
-                )
-            }
-            LinkItem(
-                title = stringResource(id = R.string.settings_support),
-                icon = R.drawable.settings_support,
-            ) {
-                uriHandler.open(
-                    context,
-                    Config().getPublicUrl(PublicUrl.SUPPORT).toUri()
                         .buildUpon()
                         .appendQueryParameter("utm_source", "gemwallet_android")
                         .build()
