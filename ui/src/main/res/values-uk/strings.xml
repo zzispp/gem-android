@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">Скасувати</string>
-  <string name="welcome.title">Ласкаво просимо до Gem Сім\'ї</string>
+  <string name="welcome.title">Ласкаво просимо до Reef.top Сім\'ї</string>
   <string name="common.done">Готово</string>
   <string name="wallet.create_new_wallet">Створити Новий Гаманець</string>
   <string name="wallet.import_existing_wallet">Імпорт існуючого гаманця</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">Новий Гаманець</string>
   <string name="receive.title">Отримати %s</string>
   <string name="buy.title">Купити %s</string>
-  <string name="welcome.legal.concent" formatted="false">Використовуючи Gem, ви приймаєте наші \n [Умови використання](%s) і [Політику конфіденційності](%s)</string>
+  <string name="welcome.legal.concent" formatted="false">Використовуючи Reef.top, ви приймаєте наші \n [Умови використання](%s) і [Політику конфіденційності](%s)</string>
   <string name="wallet.import.secret_phrase">Секретна Фраза Гаманця</string>
   <string name="wallet.name">Ім\'я</string>
   <string name="wallet.import.action">Імпорт</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Запишіть свою унікальну Секретна фраза і надійно зберігайте його; він необхідний для доступу до гаманця та його відновлення.</string>
   <string name="common.continue">Продовжити</string>
   <string name="common.secret_phrase">Секретна фраза</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">Провайдер</string>
   <string name="wallet.new.backup_confirm_warning">Переконайтеся, що ви записали і надійно зберегли свою Секретна фраза, перш ніж продовжити, оскільки це має вирішальне значення для майбутнього доступу до гаманця і його відновлення.</string>
   <string name="common.loading">Завантаження</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">Якщо у когось є ваша секретна фраза, він отримає повний контроль над вашим гаманцем!</string>
   <string name="secret_phrase.save_phrase_safely">Збережіть свою секретну фразу в надійному місці \nякі контролюєте тільки ви.</string>
   <string name="secret_phrase.confirm.quick_test.title">Пройдіть цей швидкий тест, щоб переконатися, що ви все зберегли правильно.</string>
+  <string name="secret_phrase.confirm.select_words">Будь ласка, виберіть слова в позиціях %s по порядку</string>
   <string name="wallets.watch">Дивитися</string>
   <string name="transfer.minimum_amount">Мінімальна сума становить %s</string>
   <string name="wallet_connect.no_active_connections">Немає активних з\'єднань</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">Приватний ключ</string>
   <string name="nodes.import_node.latency">Затримка</string>
   <string name="common.latency_in_ms">%d мс</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">Активного стейкінгу поки що немає.</string>
   <string name="errors.error">Помилка</string>
-  <string name="nodes.gem_wallet_node">Gem нода</string>
+  <string name="nodes.gem_wallet_node">Reef.top нода</string>
   <string name="errors.connections.user_cancelled">Скасовано користувачем</string>
   <string name="errors.swap.no_quote_data">Немає даних про котирування</string>
   <string name="errors.not_supported">Не підтримується</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">Мережева плата</string>
   <string name="info.watch_wallet.title">Watch Wallet</string>
   <string name="info.watch_wallet.description">Гаманець, до якого у вас немає доступу, але ви можете спостерігати за його транзакціями та рухами.</string>
-  <string name="info.network_fee.description" formatted="false">Кожна транзакція в мережі %s вимагає комісію в %s, яка сплачується майнерам за обробку вашої транзакції, а не Гаманець Gem. Розмір мережевої комісії залежить від використання мережі.</string>
+  <string name="info.network_fee.description" formatted="false">Кожна транзакція в мережі %s вимагає комісію в %s, яка сплачується майнерам за обробку вашої транзакції, а не Гаманець Reef.top. Розмір мережевої комісії залежить від використання мережі.</string>
   <string name="info.transaction.error.description">Транзакцію не вдалося завершити через помилку, таку як недостатня кількість коштів, недійсні дані або відхилення мережею. Перегляньте деталі та повторіть спробу.</string>
   <string name="info.transaction.pending.description">Транзакцію надіслано та очікує підтвердження в мережі. Час обробки може змінюватися. Будь ласка, слідкуйте за оновленнями.</string>
   <string name="info.transaction.success.description">Транзакцію завершено та підтверджено в мережі. Ви можете переглянути деталі, щоб перевірити її статус.</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">Типи</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">Щоб використовувати ресурс %s, ви повинні спочатку ввімкнути його в мережі %s виконавши спеціальні вимоги мережі.</string>
   <string name="nft.properties">Властивості</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">Прослизання стосується різниці між очікуваною ціною угоди та фактичною ціною, за якою вона виконується.</string>
   <string name="onboarding.accept_terms.title">Прийняти умови</string>
   <string name="onboarding.accept_terms.message">Будь ласка, прочитайте та погодьтеся з наступними умовами, перш ніж продовжити.</string>
-  <string name="onboarding.accept_terms.item1.message">Я розумію, що несу повну відповідальність за безпеку та резервне копіювання своїх гаманців, а не Gem.</string>
-  <string name="onboarding.accept_terms.item2.message">Я розумію, що Gem не є банком чи біржею, і його використання в незаконних цілях суворо заборонено.</string>
-  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Gem is not liable and cannot help in any way.</string>
+  <string name="onboarding.accept_terms.item1.message">Я розумію, що несу повну відповідальність за безпеку та резервне копіювання своїх гаманців, а не Reef.top.</string>
+  <string name="onboarding.accept_terms.item2.message">Я розумію, що Reef.top не є банком чи біржею, і його використання в незаконних цілях суворо заборонено.</string>
+  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Reef.top is not liable and cannot help in any way.</string>
   <string name="onboarding.accept_terms.continue">Agree and Continue</string>
   <string name="errors.required">Потрібно поле %s</string>
   <string name="update_app.permission.title">Дозволити встановлення</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">Підозрілі або спам-токени ідентифікуються як потенційні шахрайські або шкідливі активи. Вони можуть з\'явитися у вашому гаманці через аїрдропи, перекази або ручний імпорт.</string>
   <string name="errors.insufficient_funds">Недостатньо коштів</string>
   <string name="info.insufficient_network_fee_balance.title">Потрібно %s</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">Для цієї транзакції потрібно %s для покриття мережевої комісії, сплаченої %s майнерам, а не Гаманець Gem. Переконайтеся, що у вас достатньо %s.</string>
-  <string name="brand_name">Гаманець Gem</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">Для цієї транзакції потрібно %s для покриття мережевої комісії, сплаченої %s майнерам, а не Гаманець Reef.top. Переконайтеся, що у вас достатньо %s.</string>
+  <string name="brand_name">Гаманець Reef.top</string>
   <string name="info.insufficient_balance.title">Недостатній баланс</string>
   <string name="info.insufficient_balance.description">У вас недостатньо %s для завершення цієї транзакції. Будь ласка, поповніть, отримайте або обміняйте свій гаманець і спробуйте ще раз.</string>
   <string name="info.account_minimum_balance.title">Мінімальний баланс</string>

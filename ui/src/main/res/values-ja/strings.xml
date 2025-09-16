@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">キャンセル</string>
-  <string name="welcome.title">Gemファミリーへようこそ</string>
+  <string name="welcome.title">Reef.topファミリーへようこそ</string>
   <string name="common.done">完了</string>
   <string name="wallet.create_new_wallet">新しいウォレットを作成する</string>
   <string name="wallet.import_existing_wallet">既存のウォレットをインポートする</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">新しいウォレット</string>
   <string name="receive.title">%sを受け取る</string>
   <string name="buy.title">%s を購入</string>
-  <string name="welcome.legal.concent" formatted="false">Gemを使用すると、私たちの\n[利用規約](%s)と[プライバシーポリシー](%s)に同意します</string>
+  <string name="welcome.legal.concent" formatted="false">Reef.topを使用すると、私たちの\n[利用規約](%s)と[プライバシーポリシー](%s)に同意します</string>
   <string name="wallet.import.secret_phrase">シークレットリカバリーフレーズ</string>
   <string name="wallet.name">名前</string>
   <string name="wallet.import.action">輸入</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">ユニークなシークレットリカバリーフレーズを書き留め、安全に保管してください。これはウォレットへのアクセスや復元に大切なものです。</string>
   <string name="common.continue">続ける</string>
   <string name="common.secret_phrase">シークレットリカバリーフレーズ</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">プロバイダー</string>
   <string name="wallet.new.backup_confirm_warning">進む前に、シークレットリカバリーフレーズを書き留め、安全に保管したことを確認してください。これはウォレットのアクセスや復元にとても重要です。」</string>
   <string name="common.loading">ローディング</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">誰かがあなたの秘密のフレーズを知っていると、あなたのウォレットを完全に制御できるようになります。</string>
   <string name="secret_phrase.save_phrase_safely">秘密のフレーズを安全な場所に保存する\nそれはあなただけがコントロールできます。</string>
   <string name="secret_phrase.confirm.quick_test.title">この簡単なテストを完了して、すべてが正しく保存されたことを確認してください。</string>
+  <string name="secret_phrase.confirm.select_words">第 %s 番目のニーモニックワードを順番に選択してください</string>
   <string name="wallets.watch">見る</string>
   <string name="transfer.minimum_amount">最小金額は%sです</string>
   <string name="wallet_connect.no_active_connections">アクティブな接続はありません</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">プライベートキー</string>
   <string name="nodes.import_node.latency">レイテンシー</string>
   <string name="common.latency_in_ms">%d ミリ秒</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">アクティブなステーキングはまだありません。</string>
   <string name="errors.error">エラー</string>
-  <string name="nodes.gem_wallet_node">Gem Walletノード</string>
+  <string name="nodes.gem_wallet_node">Reef.top Walletノード</string>
   <string name="errors.connections.user_cancelled">ユーザーがキャンセルしました</string>
   <string name="errors.swap.no_quote_data">見積もりデータなし</string>
   <string name="errors.not_supported">サポートされていません</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">ネットワーク料金</string>
   <string name="info.watch_wallet.title">ウォッチ</string>
   <string name="info.watch_wallet.description">アクセス権はありませんが、取引や動きを監視できるウォレットです。</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">残高不足、無効な入力、ネットワークによる拒否などのエラーにより、取引を完了できませんでした。詳細をご確認の上、再度お試しください。</string>
   <string name="info.transaction.pending.description">取引は送信済みで、ネットワーク上での確認を待っています。処理時間は異なる場合があります。最新情報を再度ご確認ください。</string>
   <string name="info.transaction.success.description">取引は完了し、ネットワーク上で確認されました。詳細を確認してステータスをご確認ください。</string>
@@ -312,7 +313,7 @@
   <string name="fee_rate.gwei">%s</string>
   <string name="swap.slippage">スリッページ</string>
   <string name="swap.quote_fee">見積もりには %s の手数料が含まれています</string>
-  <string name="common.short_name">Gem</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">%sアセットを使用するには、まずネットワークの特定の要件を満たして%sネットワーク上でアセットを有効にする必要があります。</string>
   <string name="nft.properties">プロパティ</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">スリッページとは、取引の予想価格と実際に約定した価格の差を指します。</string>
   <string name="onboarding.accept_terms.title">利用規約に同意する</string>
   <string name="onboarding.accept_terms.message">続行する前に、以下の利用規約をお読みいただき同意してください。</string>
-  <string name="onboarding.accept_terms.item1.message">ウォレットのセキュリティとバックアップは自己責任であり、Gemは一切関与しないことを理解しています。</string>
-  <string name="onboarding.accept_terms.item2.message">Gemは銀行や取引所ではなく、違法目的での使用は禁止されていることを理解しています。</string>
-  <string name="onboarding.accept_terms.item3.message">ウォレットへのアクセスを失った場合、Gemは責任を負わず、支援もできないことを理解しています。</string>
+  <string name="onboarding.accept_terms.item1.message">ウォレットのセキュリティとバックアップは自己責任であり、Reef.topは一切関与しないことを理解しています。</string>
+  <string name="onboarding.accept_terms.item2.message">Reef.topは銀行や取引所ではなく、違法目的での使用は禁止されていることを理解しています。</string>
+  <string name="onboarding.accept_terms.item3.message">ウォレットへのアクセスを失った場合、Reef.topは責任を負わず、支援もできないことを理解しています。</string>
   <string name="onboarding.accept_terms.continue">理解しました。続行します。</string>
   <string name="errors.required">%sは必須です</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">疑わしいトークンやスパムトークンは、詐欺や有害な資産の可能性があると判断されます。エアドロップ、送金、または手動インポートによってウォレットに表示される場合があります。</string>
   <string name="errors.insufficient_funds">資金不足</string>
   <string name="info.insufficient_network_fee_balance.title">%sが必要です</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">このトランザクションでは%s %sに支払うネットワーク手数料を賄うためにGem Walletではなく %s が必要です。十分な%sがあることを確認してください。</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">このトランザクションでは%s %sに支払うネットワーク手数料を賄うためにReef.top Walletではなく %s が必要です。十分な%sがあることを確認してください。</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">残高不足</string>
   <string name="info.insufficient_balance.description">この取引を完了するには%sが足りません。ウォレットにチャージ、受け取り、または交換して、もう一度お試しください。</string>
   <string name="info.account_minimum_balance.title">最低残高</string>

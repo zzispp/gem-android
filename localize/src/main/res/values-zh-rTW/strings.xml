@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">取消</string>
-  <string name="welcome.title">歡迎來到Gem大家庭</string>
+  <string name="welcome.title">歡迎來到Reef.top大家庭</string>
   <string name="common.done">完畢</string>
   <string name="wallet.create_new_wallet">創建新錢包</string>
   <string name="wallet.import_existing_wallet">導入現有錢包</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">新建錢包</string>
   <string name="receive.title">接收%s</string>
   <string name="buy.title">購買%s</string>
-  <string name="welcome.legal.concent" formatted="false">開始使用Gem ，表示您接受我們的【使用條款】（ %s ）和【隱私政策】（ %s ）。</string>
+  <string name="welcome.legal.concent" formatted="false">開始使用Reef.top ，表示您接受我們的【使用條款】（ %s ）和【隱私政策】（ %s ）。</string>
   <string name="wallet.import.secret_phrase">秘密助記詞</string>
   <string name="wallet.name">名字</string>
   <string name="wallet.import.action">導入</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">請寫下並安全保存您獨特的[%key_id：317595596%]；它對錢包訪問和恢復至關重要。</string>
   <string name="common.continue">繼續</string>
   <string name="common.secret_phrase">秘密助記詞</string>
-  <string name="app.name">Gem</string>
+  <string name="app.name">Reef.top</string>
   <string name="common.provider">供應商</string>
   <string name="wallet.new.backup_confirm_warning">繼續之前，請確認您已安全地記下並保存了[%key_id：317595596%]，因為它對將來訪問和恢復錢包至關重要。</string>
   <string name="common.loading">装载中</string>
@@ -195,6 +195,7 @@
   <string name="secret_phrase.do_not_share.description">如果有人知道您的秘密短語，他們將完全控制您的錢包！</string>
   <string name="secret_phrase.save_phrase_safely">將您的秘密短語保存在安全的地方\n只有您能控制。</string>
   <string name="secret_phrase.confirm.quick_test.title">完成此快速測試以確認您已正確儲存所有內容。</string>
+  <string name="secret_phrase.confirm.select_words">請按順序選擇第 %s 個助記詞</string>
   <string name="wallets.watch">觀察</string>
   <string name="transfer.minimum_amount">最小金額為%s</string>
   <string name="wallet_connect.no_active_connections">沒有活動連接</string>
@@ -223,10 +224,10 @@
   <string name="common.private_key">私鑰</string>
   <string name="nodes.import_node.latency">延遲</string>
   <string name="common.latency_in_ms">%d 毫秒</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">當前沒有啟用的質押</string>
   <string name="errors.error">錯誤</string>
-  <string name="nodes.gem_wallet_node">Gem 錢包節點</string>
+  <string name="nodes.gem_wallet_node">Reef.top 錢包節點</string>
   <string name="errors.connections.user_cancelled">用戶取消</string>
   <string name="errors.swap.no_quote_data">無報價數據</string>
   <string name="errors.not_supported">不支援</string>
@@ -317,8 +318,8 @@
   <string name="filter.types">類型</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">To use the %s asset, you must first enable it on the %s network by fulfilling the network’s specific requirements.</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">Cancel</string>
-  <string name="welcome.title">Welcome to Gem Family</string>
+  <string name="welcome.title">Welcome to Reef.top Family</string>
   <string name="common.done">Done</string>
   <string name="wallet.create_new_wallet">Create a New Wallet</string>
   <string name="wallet.import_existing_wallet">Import an Existing Wallet</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">New Wallet</string>
   <string name="receive.title">Receive %s</string>
   <string name="buy.title">Buy %s</string>
-  <string name="welcome.legal.concent" formatted="false">By using Gem, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
+  <string name="welcome.legal.concent" formatted="false">By using Reef.top, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
   <string name="wallet.import.secret_phrase">Secret Phrase</string>
   <string name="wallet.name">Name</string>
   <string name="wallet.import.action">Import</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Write down your unique Secret Phrase and store it securely; it\'s essential for wallet access and recovery.</string>
   <string name="common.continue">Continue</string>
   <string name="common.secret_phrase">Secret Phrase</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">Provider</string>
   <string name="wallet.new.backup_confirm_warning">Confirm that you\'ve written down and stored your Secret Phrase securely before proceeding, as it is crucial for future wallet access and recovery.</string>
   <string name="common.loading">Loading</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">If someone has your secret phrase they will have full control of your wallet!</string>
   <string name="secret_phrase.save_phrase_safely">Save your Secret Phrase in a secure place \nthat only you control.</string>
   <string name="secret_phrase.confirm.quick_test.title">Complete this quick test to confirm you\'ve saved everything correctly.</string>
+  <string name="secret_phrase.confirm.select_words">कृपया स्थिति %s पर शब्दों को क्रम में चुनें</string>
   <string name="wallets.watch">Watch</string>
   <string name="transfer.minimum_amount">Minimum Amount is %s</string>
   <string name="wallet_connect.no_active_connections">No active connections</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">Private Key</string>
   <string name="nodes.import_node.latency">Latency</string>
   <string name="common.latency_in_ms">%d ms</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">No active staking yet.</string>
   <string name="errors.error">Error</string>
-  <string name="nodes.gem_wallet_node">Gem Wallet Node</string>
+  <string name="nodes.gem_wallet_node">Reef.top Wallet Node</string>
   <string name="errors.connections.user_cancelled">User cancelled</string>
   <string name="errors.swap.no_quote_data">No quote data</string>
   <string name="errors.not_supported">Not Supported</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">Network Fee</string>
   <string name="info.watch_wallet.title">Watch Wallet</string>
   <string name="info.watch_wallet.description">एक वॉलेट जिस तक आपकी पहुंच नहीं है, लेकिन आप इसके लेनदेन और गतिविधियों पर नजर रख सकते हैं।</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">अपर्याप्त धनराशि, अमान्य इनपुट या नेटवर्क द्वारा अस्वीकृति जैसी किसी त्रुटि के कारण लेनदेन पूरा नहीं हो सका। कृपया विवरण की समीक्षा करें और पुनः प्रयास करें।</string>
   <string name="info.transaction.pending.description">लेन-देन सबमिट कर दिया गया है और नेटवर्क पर पुष्टि की प्रतीक्षा कर रहा है। प्रसंस्करण समय अलग-अलग हो सकता है। कृपया अपडेट के लिए वापस जाँच करें।</string>
   <string name="info.transaction.success.description">लेन-देन पूरा हो गया है और नेटवर्क पर इसकी पुष्टि हो गई है। आप इसकी स्थिति सत्यापित करने के लिए विवरण की समीक्षा कर सकते हैं।</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">प्रकार</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">%s एसेट का उपयोग करने के लिए, आपको पहले नेटवर्क की विशिष्ट आवश्यकताओं को पूरा करके इसे %s नेटवर्क पर सक्षम करना होगा।</string>
   <string name="nft.properties">गुण</string>
@@ -407,7 +408,7 @@
   <string name="onboarding.accept_terms.message">कृपया आगे बढ़ने से पहले निम्नलिखित शर्तों को पढ़ें और उनसे सहमत हों।</string>
   <string name="onboarding.accept_terms.item1.message">मैं समझता हूं कि मैं अपने वॉलेट की सुरक्षा और बैकअप के लिए पूरी तरह जिम्मेदार हूं, जेम नहीं।</string>
   <string name="onboarding.accept_terms.item2.message">मैं समझता हूं कि जेम कोई बैंक या एक्सचेंज नहीं है, और इसका अवैध उद्देश्यों के लिए उपयोग करना सख्त वर्जित है।</string>
-  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Gem is not liable and cannot help in any way.</string>
+  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Reef.top is not liable and cannot help in any way.</string>
   <string name="onboarding.accept_terms.continue">Agree and Continue</string>
   <string name="errors.required">%s आवश्यक है</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">संदिग्ध या स्पैम टोकन को संभावित घोटाले या हानिकारक संपत्ति के रूप में पहचाना जाता है। वे एयरड्रॉप, ट्रांसफ़र या मैन्युअल आयात के कारण आपके वॉलेट में दिखाई दे सकते हैं।</string>
   <string name="errors.insufficient_funds">अपर्याप्त कोष</string>
   <string name="info.insufficient_network_fee_balance.title">%s आवश्यक</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">इस लेनदेन के लिए %s माइनर्स को भुगतान किए गए नेटवर्क शुल्क को कवर करने के लिए %s की आवश्यकता है, न कि Gem Wallet । सुनिश्चित करें कि आपके पास पर्याप्त %s है।</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">इस लेनदेन के लिए %s माइनर्स को भुगतान किए गए नेटवर्क शुल्क को कवर करने के लिए %s की आवश्यकता है, न कि Reef.top Wallet । सुनिश्चित करें कि आपके पास पर्याप्त %s है।</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">अपर्याप्त शेषराशि</string>
   <string name="info.insufficient_balance.description">इस लेनदेन को पूरा करने के लिए आपके पास पर्याप्त %s नहीं है। कृपया अपने वॉलेट में टॉप अप करें, प्राप्त करें या स्वैप करें और फिर से प्रयास करें।</string>
   <string name="info.account_minimum_balance.title">न्यूनतम शेष</string>

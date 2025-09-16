@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">Cancel</string>
-  <string name="welcome.title">Welcome to Gem Family</string>
+  <string name="welcome.title">Welcome to Reef.top Family</string>
   <string name="common.done">Done</string>
   <string name="wallet.create_new_wallet">Tạo một ví mới</string>
   <string name="wallet.import_existing_wallet">Nhập ví hiện có</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">Ví mới</string>
   <string name="receive.title">Receive %s</string>
   <string name="buy.title">Buy %s</string>
-  <string name="welcome.legal.concent" formatted="false">By using Gem, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
+  <string name="welcome.legal.concent" formatted="false">By using Reef.top, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
   <string name="wallet.import.secret_phrase">Secret Phrase</string>
   <string name="wallet.name">Name</string>
   <string name="wallet.import.action">Import</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Write down your unique Secret Phrase and store it securely; it\'s essential for wallet access and recovery.</string>
   <string name="common.continue">Continue</string>
   <string name="common.secret_phrase">Secret Phrase</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">Provider</string>
   <string name="wallet.new.backup_confirm_warning">Confirm that you\'ve written down and stored your Secret Phrase securely before proceeding, as it is crucial for future wallet access and recovery.</string>
   <string name="common.loading">Loading</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">Nếu ai đó có cụm từ bí mật của bạn, họ sẽ có toàn quyền kiểm soát ví của bạn!</string>
   <string name="secret_phrase.save_phrase_safely">Lưu cụm từ bí mật của bạn ở nơi an toàn\n mà chỉ có bạn kiểm soát.</string>
   <string name="secret_phrase.confirm.quick_test.title">Hãy hoàn thành bài kiểm tra nhanh này để xác nhận rằng bạn đã lưu mọi thứ một cách chính xác.</string>
+  <string name="secret_phrase.confirm.select_words">Vui lòng chọn các từ gợi nhớ ở vị trí %s theo thứ tự</string>
   <string name="wallets.watch">Watch</string>
   <string name="transfer.minimum_amount">Số tiền tối thiểu là %s</string>
   <string name="wallet_connect.no_active_connections">Không có kết nối hoạt động</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">Private Key</string>
   <string name="nodes.import_node.latency">Latency</string>
   <string name="common.latency_in_ms">%d ms</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">No active staking yet.</string>
   <string name="errors.error">Error</string>
-  <string name="nodes.gem_wallet_node">Gem Wallet Node</string>
+  <string name="nodes.gem_wallet_node">Reef.top Wallet Node</string>
   <string name="errors.connections.user_cancelled">User cancelled</string>
   <string name="errors.swap.no_quote_data">No quote data</string>
   <string name="errors.not_supported">Not Supported</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">Network Fee</string>
   <string name="info.watch_wallet.title">Watch Wallet</string>
   <string name="info.watch_wallet.description">Một ví mà bạn không thể truy cập nhưng bạn có thể theo dõi các giao dịch và biến động của nó.</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">Giao dịch không thể hoàn tất do lỗi, chẳng hạn như không đủ tiền, đầu vào không hợp lệ hoặc bị mạng từ chối. Vui lòng xem lại chi tiết và thử lại.</string>
   <string name="info.transaction.pending.description">Giao dịch đã được gửi và đang chờ xác nhận trên mạng. Thời gian xử lý có thể thay đổi. Vui lòng kiểm tra lại để cập nhật.</string>
   <string name="info.transaction.success.description">Giao dịch đã hoàn tất và được xác nhận trên mạng. Bạn có thể xem lại thông tin chi tiết để xác minh trạng thái của giao dịch.</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">Các loại</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">Để sử dụng tài sản %s, trước tiên bạn phải bật nó trên mạng %s bằng cách đáp ứng các yêu cầu cụ thể của mạng.</string>
   <string name="nft.properties">Của cải</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">Trượt giá là sự chênh lệch giữa giá dự kiến của một giao dịch và giá thực tế khi giao dịch đó được thực hiện.</string>
   <string name="onboarding.accept_terms.title">Chấp nhận Điều khoản</string>
   <string name="onboarding.accept_terms.message">Vui lòng đọc và đồng ý với các điều khoản sau trước khi tiếp tục.</string>
-  <string name="onboarding.accept_terms.item1.message">Tôi hiểu rằng tôi là người duy nhất chịu trách nhiệm về tính bảo mật và sao lưu ví của mình, không phải Gem.</string>
-  <string name="onboarding.accept_terms.item2.message">Tôi hiểu rằng Gem không phải là ngân hàng hay sàn giao dịch và việc sử dụng Gem cho mục đích bất hợp pháp là hoàn toàn bị nghiêm cấm.</string>
-  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Gem is not liable and cannot help in any way.</string>
+  <string name="onboarding.accept_terms.item1.message">Tôi hiểu rằng tôi là người duy nhất chịu trách nhiệm về tính bảo mật và sao lưu ví của mình, không phải Reef.top.</string>
+  <string name="onboarding.accept_terms.item2.message">Tôi hiểu rằng Reef.top không phải là ngân hàng hay sàn giao dịch và việc sử dụng Reef.top cho mục đích bất hợp pháp là hoàn toàn bị nghiêm cấm.</string>
+  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Reef.top is not liable and cannot help in any way.</string>
   <string name="onboarding.accept_terms.continue">Agree and Continue</string>
   <string name="errors.required">%s là bắt buộc</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">Mã thông báo đáng ngờ hoặc thư rác được xác định là lừa đảo tiềm ẩn hoặc tài sản có hại. Chúng có thể xuất hiện trong ví của bạn do airdrop, chuyển khoản hoặc nhập thủ công.</string>
   <string name="errors.insufficient_funds">Không đủ tiền</string>
   <string name="info.insufficient_network_fee_balance.title">%s bắt buộc</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">Giao dịch này yêu cầu %s phải trả phí mạng cho %s thợ đào, không phải Gem Wallet. Đảm bảo bạn có đủ %s.</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">Giao dịch này yêu cầu %s phải trả phí mạng cho %s thợ đào, không phải Reef.top Wallet. Đảm bảo bạn có đủ %s.</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">Số dư không đủ</string>
   <string name="info.insufficient_balance.description">Bạn không có đủ %s để hoàn tất giao dịch này. Vui lòng nạp tiền, nhận hoặc đổi trong ví của bạn và thử lại.</string>
   <string name="info.account_minimum_balance.title">Số dư tối thiểu</string>

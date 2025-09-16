@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">İptal etmek</string>
-  <string name="welcome.title">Gem Ailesine Hoş Geldiniz</string>
+  <string name="welcome.title">Reef.top Ailesine Hoş Geldiniz</string>
   <string name="common.done">Tamamlamak</string>
   <string name="wallet.create_new_wallet">Yeni Cüzdan Oluştur</string>
   <string name="wallet.import_existing_wallet">Mevcut Bir Cüzdanı İçe Aktarma</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">Yeni Cüzdan</string>
   <string name="receive.title">Aldığın</string>
   <string name="buy.title">%s Satın Al</string>
-  <string name="welcome.legal.concent" formatted="false">Gem kullanarak, \n [Kullanım Şartlarımızı]( %s ) ve [Gizlilik Politikamızı]( %s ) kabul etmiş olursunuz</string>
+  <string name="welcome.legal.concent" formatted="false">Reef.top kullanarak, \n [Kullanım Şartlarımızı]( %s ) ve [Gizlilik Politikamızı]( %s ) kabul etmiş olursunuz</string>
   <string name="wallet.import.secret_phrase">gizli yenileme</string>
   <string name="wallet.name">İsim</string>
   <string name="wallet.import.action">Cüzdanı İçe Aktar</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Benzersiz Geçersiz Gizli İfade anahtarınızı bir yere yazın ve güvenli bir şekilde saklayın; cüzdan erişimi ve kurtarılması için önemlidir.</string>
   <string name="common.continue">Devam etmek</string>
   <string name="common.secret_phrase">Geçersiz Gizli İfade</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">Sağlayıcı</string>
   <string name="wallet.new.backup_confirm_warning">Devam etmeden önce cüzdan bilgilerinizi not ettiğinizi ve güvenli bir şekilde sakladığınızdan emin olun; çünkü bu, cüzdanınıza gelecekteki erişim ve kurtarma işlemleri için çok önemlidir.</string>
   <string name="common.loading">Yükleniyor</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">Birisi gizli ifadenizi ele geçirirse, cüzdanınızın tam kontrolüne sahip olacaktır!</string>
   <string name="secret_phrase.save_phrase_safely">Gizli İfadenizi güvenli bir yere kaydedin\n bunu yalnızca sen kontrol edebilirsin.</string>
   <string name="secret_phrase.confirm.quick_test.title">Her şeyi doğru şekilde kaydettiğinizi doğrulamak için bu hızlı testi tamamlayın.</string>
+  <string name="secret_phrase.confirm.select_words">Lütfen %s pozisyonlarındaki kelimeleri sırayla seçin</string>
   <string name="wallets.watch">İzle</string>
   <string name="transfer.minimum_amount">Minimum Tutar %s</string>
   <string name="wallet_connect.no_active_connections">Etkin bağlantı yok</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">Özel Anahtar</string>
   <string name="nodes.import_node.latency">Gecikme</string>
   <string name="common.latency_in_ms">%d ms</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">Henüz aktif staking yok.</string>
   <string name="errors.error">Hata</string>
-  <string name="nodes.gem_wallet_node">Gem Cüzdan Düğümü</string>
+  <string name="nodes.gem_wallet_node">Reef.top Cüzdan Düğümü</string>
   <string name="errors.connections.user_cancelled">Kullanıcı iptal etti</string>
   <string name="errors.swap.no_quote_data">Teklif verisi yok</string>
   <string name="errors.not_supported">Desteklenmiyor</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">Ağ</string>
   <string name="info.watch_wallet.title">Watch Wallet</string>
   <string name="info.watch_wallet.description">Erişiminizin olmadığı, ancak işlemlerini ve hareketlerini izleyebileceğiniz bir cüzdan.</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">İşlem, yetersiz fon, geçersiz giriş veya ağ tarafından reddedilme gibi bir hata nedeniyle tamamlanamadı. Lütfen ayrıntıları inceleyin ve tekrar deneyin.</string>
   <string name="info.transaction.pending.description">İşlem gönderildi ve ağda onay bekleniyor. İşlem süreleri değişiklik gösterebilir. Lütfen güncellemeler için tekrar kontrol edin.</string>
   <string name="info.transaction.success.description">İşlem tamamlandı ve ağda onaylandı. Durumunu doğrulamak için ayrıntıları inceleyebilirsiniz.</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">Türler</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">%s varlığını kullanmak için, öncelikle ağın özel gereksinimlerini karşılayarak %s ağında etkinleştirmeniz gerekir.</string>
   <string name="nft.properties">Özellikler</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">Kayma, bir işlemin beklenen fiyatı ile gerçekleştirildiği gerçek fiyat arasındaki farkı ifade eder.</string>
   <string name="onboarding.accept_terms.title">Şartları Kabul Et</string>
   <string name="onboarding.accept_terms.message">Devam etmeden önce lütfen aşağıdaki şartları okuyun ve kabul edin.</string>
-  <string name="onboarding.accept_terms.item1.message">Cüzdanlarımın güvenliğinden ve yedeklemesinden yalnızca benim sorumlu olduğumu, Gem\'in sorumlu olmadığını anlıyorum.</string>
-  <string name="onboarding.accept_terms.item2.message">Gem\'in bir banka veya borsa olmadığını ve yasa dışı amaçlarla kullanılmasının kesinlikle yasak olduğunu anlıyorum.</string>
-  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Gem is not liable and cannot help in any way.</string>
+  <string name="onboarding.accept_terms.item1.message">Cüzdanlarımın güvenliğinden ve yedeklemesinden yalnızca benim sorumlu olduğumu, Reef.top\'in sorumlu olmadığını anlıyorum.</string>
+  <string name="onboarding.accept_terms.item2.message">Reef.top\'in bir banka veya borsa olmadığını ve yasa dışı amaçlarla kullanılmasının kesinlikle yasak olduğunu anlıyorum.</string>
+  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Reef.top is not liable and cannot help in any way.</string>
   <string name="onboarding.accept_terms.continue">Agree and Continue</string>
   <string name="errors.required">%s gereklidir</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">Şüpheli veya spam token\'lar potansiyel dolandırıcılık veya zararlı varlıklar olarak tanımlanır. Airdrop\'lar, transferler veya manuel ithalatlar nedeniyle cüzdanınızda görünebilirler.</string>
   <string name="errors.insufficient_funds">Yetersiz fon</string>
   <string name="info.insufficient_network_fee_balance.title">%s gerekli</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">Bu işlem %s madenciye ödenen ağ ücretini karşılamak için %s gerektirir, Gem Wallet değil. Yeterli %s olduğundan emin olun.</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">Bu işlem %s madenciye ödenen ağ ücretini karşılamak için %s gerektirir, Reef.top Wallet değil. Yeterli %s olduğundan emin olun.</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">Yetersiz Bakiye</string>
   <string name="info.insufficient_balance.description">Bu işlemi tamamlamak için yeterli %s iniz yok. Lütfen cüzdanınıza para yükleyin, alın veya takas edin ve tekrar deneyin.</string>
   <string name="info.account_minimum_balance.title">Minimum bakiye</string>

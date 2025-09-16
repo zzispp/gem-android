@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">Abbrechen</string>
-  <string name="welcome.title">Willkommen zur Gem Familie</string>
+  <string name="welcome.title">Willkommen zur Reef.top Familie</string>
   <string name="common.done">Erledigt</string>
   <string name="wallet.create_new_wallet">Eine neue Wallet erstellen</string>
   <string name="wallet.import_existing_wallet">Eine vorhandene Wallet importieren</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">Neue Wallet</string>
   <string name="receive.title">Empfangen %s</string>
   <string name="buy.title">%s kaufen</string>
-  <string name="welcome.legal.concent" formatted="false">Durch die Nutzung von Gem erklären Sie sich mit unseren [Nutzungsbedingungen](%s) und [Datenschutzbestimmungen](%s) einverstanden.</string>
+  <string name="welcome.legal.concent" formatted="false">Durch die Nutzung von Reef.top erklären Sie sich mit unseren [Nutzungsbedingungen](%s) und [Datenschutzbestimmungen](%s) einverstanden.</string>
   <string name="wallet.import.secret_phrase">Geheimen Sicherheitsschlüssel</string>
   <string name="wallet.name">Name</string>
   <string name="wallet.import.action">Importieren</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Speichern Sie Ihren persönlichen Geheimen Sicherheitsschlüssel und bewahren Sie diesen sicher auf; er wird zum zukünftigen Zugriff und zur Wiederherstellung Ihrer Wallet benötigt wird.</string>
   <string name="common.continue">Weiter</string>
   <string name="common.secret_phrase">Geheimen Sicherheitsschlüssel</string>
-  <string name="app.name">Gem</string>
+  <string name="app.name">Reef.top</string>
   <string name="common.provider">Anbieter</string>
   <string name="wallet.new.backup_confirm_warning">Vergewissern Sie sich, dass Sie Ihren Geheimen Sicherheitsschlüssel aufgeschrieben und gespeichert haben, bevor Sie fortfahren, da er für den zukünftigen Zugriff und zur Wiederherstellung Ihrer Wallet benötigt wird.</string>
   <string name="common.loading">Lädt</string>
@@ -195,6 +195,7 @@
   <string name="secret_phrase.do_not_share.description">Wenn jemand Ihre geheime Phrase hat, hat er die vollständige Kontrolle über Ihre Brieftasche!</string>
   <string name="secret_phrase.save_phrase_safely">Speichern Sie Ihre geheime Phrase an einem sicheren Ort\n das nur Sie kontrollieren.</string>
   <string name="secret_phrase.confirm.quick_test.title">Führen Sie diesen Kurztest durch, um zu bestätigen, dass Sie alles richtig gespeichert haben.</string>
+  <string name="secret_phrase.confirm.select_words">Bitte wählen Sie die Wörter an den Positionen %s in der richtigen Reihenfolge aus</string>
   <string name="wallets.watch">Beobachten</string>
   <string name="transfer.minimum_amount">Mindestbetrag ist %s</string>
   <string name="wallet_connect.no_active_connections">Keine aktiven Verbindungen</string>
@@ -223,10 +224,10 @@
   <string name="common.private_key">Private Key</string>
   <string name="nodes.import_node.latency">Latenzzeit</string>
   <string name="common.latency_in_ms">%d ms</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">Noch kein aktives Staking vorhanden.</string>
   <string name="errors.error">Fehler</string>
-  <string name="nodes.gem_wallet_node">Gem Wallet Node</string>
+  <string name="nodes.gem_wallet_node">Reef.top Wallet Node</string>
   <string name="errors.connections.user_cancelled">Benutzer hat abgebrochen</string>
   <string name="errors.swap.no_quote_data">Keine Kursdaten vorhanden</string>
   <string name="errors.not_supported">Nicht unterstützt</string>
@@ -317,8 +318,8 @@
   <string name="filter.types">Arten</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">To use the %s asset, you must first enable it on the %s network by fulfilling the network’s specific requirements.</string>
 </resources>

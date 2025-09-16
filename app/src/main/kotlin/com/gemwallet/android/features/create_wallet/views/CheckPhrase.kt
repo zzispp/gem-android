@@ -3,6 +3,7 @@ package com.gemwallet.android.features.create_wallet.views
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -13,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
@@ -43,37 +45,36 @@ internal fun CheckPhrase(
 ) {
     DisableScreenShooting()
 
+    // 随机选择3个位置进行验证
+    val selectedIndices = remember {
+        words.indices.shuffled().take(3).sorted()
+    }
+    
+    val selectedWords = remember {
+        selectedIndices.map { words[it] }
+    }
+
     val random = remember {
-        val shuffled = mutableListOf<Pair<Int, String>>()
-        for (i in 0..words.size / 4) {
-            val part = words.mapIndexed { index, word -> Pair(index, word) }.subList(
-                fromIndex = i * 4,
-                toIndex = min(i * 4 + 4, words.size)
-            ).shuffled()
-            shuffled.addAll(part)
-        }
-        shuffled.toList()
+        // 创建包含所有助记词的选项，但只验证选中的3个
+        val allWordsShuffled = words.mapIndexed { index, word -> Pair(index, word) }.shuffled()
+        allWordsShuffled
     }
-    val render = remember {
-        val state = mutableStateListOf<String>()
-        state.addAll(words.map { "" })
-        state
-    }
+    
     val result = remember {
         mutableStateListOf<String>()
     }
+    
     val isDone by remember {
         derivedStateOf {
-            result.joinToString() == words.joinToString()
+            result.size == 3 && result.zip(selectedWords).all { (input, expected) -> input == expected }
         }
     }
     val isSmallScreen = isSmallScreen()
 
     val onWordClick: (String) -> Boolean = { word ->
         val index = result.size
-        if (words[index] == word) {
+        if (index < selectedWords.size && selectedWords[index] == word) {
             result.add(word)
-            render[result.size - 1] = word
             true
         } else {
             false
@@ -94,7 +95,7 @@ internal fun CheckPhrase(
                     title = stringResource(id = R.string.common_continue),
                     enabled = isDone,
                 ) {
-                    onDone(result.joinToString(" "))
+                    onDone(words.joinToString(" "))
                 }
             }
         }
@@ -108,28 +109,63 @@ internal fun CheckPhrase(
                 color = MaterialTheme.colorScheme.secondary,
             )
             Spacer16()
-            PhraseLayout(
-                words = render,
+            
+            // 显示需要验证的位置
+            Text(
+                text = stringResource(
+                    id = R.string.secret_phrase_confirm_select_words,
+                    selectedIndices.map { it + 1 }.joinToString(", ")
+                ),
+                textAlign = TextAlign.Center,
+                color = MaterialTheme.colorScheme.primary,
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.fillMaxWidth()
             )
-            AnimatedVisibility(visible = !isDone || !isSmallScreen) {
+            Spacer16()
+            
+            // 显示当前进度
+            Column {
+                selectedIndices.forEachIndexed { index, position ->
+                    val wordText = if (index < result.size) result[index] else ""
+                    val isNext = index == result.size
+                    
+                    Surface(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 4.dp),
+                        color = if (isNext) MaterialTheme.colorScheme.primary.copy(alpha = 0.1f) 
+                               else MaterialTheme.colorScheme.surface,
+                        shape = MaterialTheme.shapes.medium,
+                        border = BorderStroke(
+                            1.dp, 
+                            if (isNext) MaterialTheme.colorScheme.primary 
+                            else MaterialTheme.colorScheme.outline
+                        )
+                    ) {
+                        Text(
+                            text = "${position + 1}. $wordText",
+                            modifier = Modifier.padding(16.dp),
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = if (wordText.isNotEmpty()) MaterialTheme.colorScheme.primary 
+                                   else MaterialTheme.colorScheme.onSurface
+                        )
+                    }
+                }
+            }
+            
+            Spacer16()
+            
+            // 选项按钮
+            AnimatedVisibility(visible = !isDone) {
                 FlowRow(
                     modifier = Modifier
                         .padding(vertical = 16.dp)
                         .fillMaxWidth(),
-                    maxItemsInEachRow = 4,
+                    maxItemsInEachRow = 3,
                     horizontalArrangement = Arrangement.Center,
                 ) {
-                    if (isSmallScreen) {
-                        val slice = result.size / 4
-                        if (slice < 3) {
-                            (random.slice(slice * 4..<slice * 4 + 4)).forEach {word ->
-                                WordChip(word.second, result.getOrNull(word.first) != word.second, onWordClick)
-                            }
-                        }
-                    } else {
-                        (random).forEach { word ->
-                            WordChip(word.second, result.getOrNull(word.first) != word.second, onWordClick)
-                        }
+                    random.forEach { word ->
+                        WordChip(word.second, true, onWordClick)
                     }
                 }
             }

@@ -17,21 +17,21 @@ import androidx.compose.ui.unit.dp
 val pendingColor = Color(0xffff9314)
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color(0xFF2D5BE6),
-    secondary = Color(0xFF808d99), //Color(0xFF818181),
-    tertiary = Color(0xFF06BE92),
-    background = Color(0xFF24262A),
-    surface = Color(0xFF1A191A),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF818181),
-    error = Color(0xFFF84E4E),
-    scrim = Color(0xff34373d), // Header button actions color
+    primary = Color(0xFF04BBD3),
+    secondary = Color(0xFF6B7280),
+    tertiary = Color(0xFF10B981),
+    background = Color(0xFF111827),
+    surface = Color(0xFF1F2937),
+    onPrimary = Color(0xFF000000),
+    onSecondary = Color(0xFFFFFFFF),
+    onTertiary = Color(0xFF000000),
+    onBackground = Color(0xFFE5E7EB),
+    error = Color(0xFFEF4444),
+    scrim = Color(0xFF374151),
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF2D5BE6),
+    primary = Color(0xFF000000),
     secondary = Color(0xFF999999), //Color(0xFF818181),
     tertiary = Color(0xFF1B9A6D),
     background = Color(0xFFFFFFFF),

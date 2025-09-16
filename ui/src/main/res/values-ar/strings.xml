@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">Cancel</string>
-  <string name="welcome.title">Welcome to Gem Family</string>
+  <string name="welcome.title">Welcome to Reef.top Family</string>
   <string name="common.done">Done</string>
   <string name="wallet.create_new_wallet">إنشاء محفظة جديدة</string>
   <string name="wallet.import_existing_wallet">استيراد محفظة موجودة</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">محفظة جديدة</string>
   <string name="receive.title">Receive %s</string>
   <string name="buy.title">Buy %s</string>
-  <string name="welcome.legal.concent" formatted="false">By using Gem, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
+  <string name="welcome.legal.concent" formatted="false">By using Reef.top, you agree to accept our\n [Terms of Use](%s) and [Privacy Policy](%s)</string>
   <string name="wallet.import.secret_phrase">Secret Phrase</string>
   <string name="wallet.name">Name</string>
   <string name="wallet.import.action">Import</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">Write down your unique Secret Phrase and store it securely; it\'s essential for wallet access and recovery.</string>
   <string name="common.continue">Continue</string>
   <string name="common.secret_phrase">Secret Phrase</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">Provider</string>
   <string name="wallet.new.backup_confirm_warning">Confirm that you\'ve written down and stored your Secret Phrase securely before proceeding, as it is crucial for future wallet access and recovery.</string>
   <string name="common.loading">Loading</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">إذا حصل شخص ما على العبارة السرية الخاصة بك، فسيكون لديه السيطرة الكاملة على محفظتك!</string>
   <string name="secret_phrase.save_phrase_safely">احفظ عبارتك السرية في مكان آمن \nالتي تتحكم فيها أنت فقط.</string>
   <string name="secret_phrase.confirm.quick_test.title">أكمل هذا الاختبار السريع للتأكد من أنك قمت بحفظ كل شيء بشكل صحيح.</string>
+  <string name="secret_phrase.confirm.select_words">يرجى اختيار الكلمات في المواضع %s بالترتيب</string>
   <string name="wallets.watch">Watch</string>
   <string name="transfer.minimum_amount">الحد الأدنى للمبلغ هو %s</string>
   <string name="wallet_connect.no_active_connections">لا توجد اتصالات نشطة</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">Private Key</string>
   <string name="nodes.import_node.latency">Latency</string>
   <string name="common.latency_in_ms">%d ms</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">No active staking yet.</string>
   <string name="errors.error">Error</string>
-  <string name="nodes.gem_wallet_node">Gem Wallet Node</string>
+  <string name="nodes.gem_wallet_node">Reef.top Wallet Node</string>
   <string name="errors.connections.user_cancelled">User cancelled</string>
   <string name="errors.swap.no_quote_data">No quote data</string>
   <string name="errors.not_supported">Not Supported</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">Network Fee</string>
   <string name="info.watch_wallet.title">Watch Wallet</string>
   <string name="info.watch_wallet.description">محفظة لا يمكنك الوصول إليها، ولكن يمكنك مشاهدة معاملاتها وحركاتها.</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">تعذّر إتمام المعاملة بسبب خطأ، مثل عدم كفاية الرصيد، أو إدخال غير صحيح، أو رفض من قِبل الشبكة. يُرجى مراجعة التفاصيل والمحاولة مرة أخرى.</string>
   <string name="info.transaction.pending.description">تم إرسال المعاملة وهي بانتظار التأكيد على الشبكة. قد تختلف أوقات المعالجة. يُرجى مراجعة التحديثات.</string>
   <string name="info.transaction.success.description">تم إتمام المعاملة وتأكيدها على الشبكة. يمكنك مراجعة التفاصيل للتحقق من حالتها.</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">أنواع</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">Slippage</string>
-  <string name="swap.quote_fee">Quote includes a %s Gem fee.</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">Quote includes a %s Reef.top fee.</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">لاستخدام الأصل %s ، يجب عليك أولاً تمكينه على شبكة %s من خلال استيفاء المتطلبات المحددة للشبكة.</string>
   <string name="nft.properties">ملكيات</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">يشير الانزلاق إلى الفرق بين السعر المتوقع للتداول والسعر الفعلي الذي يتم تنفيذه به.</string>
   <string name="onboarding.accept_terms.title">قبول الشروط</string>
   <string name="onboarding.accept_terms.message">يرجى قراءة الشروط التالية والموافقة عليها قبل الاستمرار.</string>
-  <string name="onboarding.accept_terms.item1.message">أفهم أنني المسؤول الوحيد عن أمان ونسخ احتياطي لمحافظي، وليس Gem.</string>
-  <string name="onboarding.accept_terms.item2.message">أتفهم أن Gem ليس بنكًا أو بورصة، واستخدامه لأغراض غير قانونية محظور تمامًا.</string>
-  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Gem is not liable and cannot help in any way.</string>
+  <string name="onboarding.accept_terms.item1.message">أفهم أنني المسؤول الوحيد عن أمان ونسخ احتياطي لمحافظي، وليس Reef.top.</string>
+  <string name="onboarding.accept_terms.item2.message">أتفهم أن Reef.top ليس بنكًا أو بورصة، واستخدامه لأغراض غير قانونية محظور تمامًا.</string>
+  <string name="onboarding.accept_terms.item3.message">I understand that if I ever lose access to my wallets, Reef.top is not liable and cannot help in any way.</string>
   <string name="onboarding.accept_terms.continue">Agree and Continue</string>
   <string name="errors.required">%s مطلوب</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">يتم تحديد الرموز المشبوهة أو غير المرغوب فيها على أنها عمليات احتيال محتملة أو أصول ضارة. قد تظهر في محفظتك نتيجةً لعمليات الإنزال الجوي أو التحويلات أو الاستيراد اليدوي.</string>
   <string name="errors.insufficient_funds">عدم كفاية الأموال</string>
   <string name="info.insufficient_network_fee_balance.title">%s مطلوب</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">تتطلب هذه المعاملة %s لتغطية رسوم الشبكة المدفوعة لـ %s من عمال المناجم، وليس Gem Wallet. تأكد من وجود %s كافٍ لديك.</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">تتطلب هذه المعاملة %s لتغطية رسوم الشبكة المدفوعة لـ %s من عمال المناجم، وليس Reef.top Wallet. تأكد من وجود %s كافٍ لديك.</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">رصيد غير كاف</string>
   <string name="info.insufficient_balance.description">ليس لديك رصيد كافٍ %s لإتمام هذه المعاملة. يُرجى شحن رصيدك أو استلامه أو استبداله في محفظتك والمحاولة مرة أخرى.</string>
   <string name="info.account_minimum_balance.title">الحد الأدنى للرصيد</string>

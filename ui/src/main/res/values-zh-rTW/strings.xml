@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="common.cancel">取消</string>
-  <string name="welcome.title">歡迎來到Gem大家庭</string>
+  <string name="welcome.title">歡迎來到Reef.top大家庭</string>
   <string name="common.done">完畢</string>
   <string name="wallet.create_new_wallet">創建新錢包</string>
   <string name="wallet.import_existing_wallet">導入現有錢包</string>
@@ -14,7 +14,7 @@
   <string name="wallet.new.title">新建錢包</string>
   <string name="receive.title">接收%s</string>
   <string name="buy.title">購買%s</string>
-  <string name="welcome.legal.concent" formatted="false">開始使用Gem ，表示您接受我們的【使用條款】（ %s ）和【隱私政策】（ %s ）。</string>
+  <string name="welcome.legal.concent" formatted="false">開始使用Reef.top ，表示您接受我們的【使用條款】（ %s ）和【隱私政策】（ %s ）。</string>
   <string name="wallet.import.secret_phrase">秘密助記詞</string>
   <string name="wallet.name">名字</string>
   <string name="wallet.import.action">導入</string>
@@ -24,7 +24,7 @@
   <string name="wallet.new.backup_warning">請寫下並安全保存獨特的[%key_id：317595596%]；它對錢包訪問和恢復至關重要。</string>
   <string name="common.continue">繼續</string>
   <string name="common.secret_phrase">秘密助記詞</string>
-  <string name="application.name">Gem</string>
+  <string name="application.name">Reef.top</string>
   <string name="common.provider">供應商</string>
   <string name="wallet.new.backup_confirm_warning">繼續之前，請確認已安全地記下並保存[%key_id：317595596%]，對將來訪問和恢復錢包至關重要。</string>
   <string name="common.loading">装载中</string>
@@ -192,6 +192,7 @@
   <string name="secret_phrase.do_not_share.description">任何人只要擁有助記詞，就能完全控制这个錢包！</string>
   <string name="secret_phrase.save_phrase_safely">請妥善保管您的助記詞，確保只有你自己可以訪問</string>
   <string name="secret_phrase.confirm.quick_test.title">完成這個快速測試，以確認您已正確保存所有內容</string>
+  <string name="secret_phrase.confirm.select_words">請按順序選擇第 %s 個助記詞</string>
   <string name="wallets.watch">觀察</string>
   <string name="transfer.minimum_amount">最小金額為%s</string>
   <string name="wallet_connect.no_active_connections">沒有活動連接</string>
@@ -220,10 +221,10 @@
   <string name="common.private_key">私鑰</string>
   <string name="nodes.import_node.latency">延遲</string>
   <string name="common.latency_in_ms">%d 毫秒</string>
-  <string name="stake.viagem">Stake via Gem Wallet</string>
+  <string name="stake.viagem">Stake via Reef.top Wallet</string>
   <string name="stake.no_active_staking">當前沒有啟用的質押</string>
   <string name="errors.error">錯誤</string>
-  <string name="nodes.gem_wallet_node">Gem 錢包節點</string>
+  <string name="nodes.gem_wallet_node">Reef.top 錢包節點</string>
   <string name="errors.connections.user_cancelled">用戶已取消</string>
   <string name="errors.swap.no_quote_data">暫無報價數據</string>
   <string name="errors.not_supported">不支援</string>
@@ -288,7 +289,7 @@
   <string name="info.network_fee.title">網絡費用</string>
   <string name="info.watch_wallet.title">觀察錢包</string>
   <string name="info.watch_wallet.description">這是一個您無法操作的錢包，但可以查看它的交易和資產變動。</string>
-  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Gem Wallet. Network fees varies based on network usage.</string>
+  <string name="info.network_fee.description" formatted="false">Every transaction on the %s network requires a fee in %s paid to miners to process your transaction, not Reef.top Wallet. Network fees varies based on network usage.</string>
   <string name="info.transaction.error.description">由於錯誤（例如資金不足、輸入無效或網路拒絕）導致交易無法完成。請查看詳細資訊並重試。</string>
   <string name="info.transaction.pending.description">交易已提交並正在等待網路確認。處理時間可能有所不同。請回來查看更新。</string>
   <string name="info.transaction.success.description">交易已完成並在網路上確認。您可以查看詳細資訊來驗證其狀態。</string>
@@ -311,8 +312,8 @@
   <string name="filter.types">類型</string>
   <string name="fee_rate.gwei">%s gwei</string>
   <string name="swap.slippage">滑點</string>
-  <string name="swap.quote_fee">報價包括%s Gem交易費用。</string>
-  <string name="common.short_name">Gem</string>
+  <string name="swap.quote_fee">報價包括%s Reef.top交易費用。</string>
+  <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">啟用資產</string>
   <string name="banner.activate_asset.description" formatted="false">要使用%s資產，您必須先透過滿足網路的特定要求在%s網路上啟用它。</string>
   <string name="nft.properties">特性</string>
@@ -405,9 +406,9 @@
   <string name="info.slippage.description">滑點是指交易預期價格與實際成交價格之間的差異。</string>
   <string name="onboarding.accept_terms.title">接受條款</string>
   <string name="onboarding.accept_terms.message">請閱讀並同意以下條款後繼續。</string>
-  <string name="onboarding.accept_terms.item1.message">我了解錢包的安全與備份完全由我自行負責，Gem 不承擔任何責任。</string>
-  <string name="onboarding.accept_terms.item2.message">我了解 Gem 不是銀行或交易所，嚴禁用於任何非法用途。</string>
-  <string name="onboarding.accept_terms.item3.message">我了解若遺失錢包存取權限，Gem 不負任何責任且無法提供協助。</string>
+  <string name="onboarding.accept_terms.item1.message">我了解錢包的安全與備份完全由我自行負責，Reef.top 不承擔任何責任。</string>
+  <string name="onboarding.accept_terms.item2.message">我了解 Reef.top 不是銀行或交易所，嚴禁用於任何非法用途。</string>
+  <string name="onboarding.accept_terms.item3.message">我了解若遺失錢包存取權限，Reef.top 不負任何責任且無法提供協助。</string>
   <string name="onboarding.accept_terms.continue">我了解，繼續</string>
   <string name="errors.required">%s為必填項</string>
   <string name="update_app.permission.title">Allow installation</string>
@@ -427,8 +428,8 @@
   <string name="info.asset_status.suspicious.description">可疑或垃圾代幣會被識別為潛在的詐騙或有害資產。它們可能因空投、轉帳或手動匯入而出現在您的錢包中。</string>
   <string name="errors.insufficient_funds">資金不足</string>
   <string name="info.insufficient_network_fee_balance.title">需要%s</string>
-  <string name="info.insufficient_network_fee_balance.description" formatted="false">此交易需要%s來支付給%s礦工的網路費用，而非Gem Wallet 。請確保您有足夠的%s 。</string>
-  <string name="brand_name">Gem Wallet</string>
+  <string name="info.insufficient_network_fee_balance.description" formatted="false">此交易需要%s來支付給%s礦工的網路費用，而非Reef.top Wallet 。請確保您有足夠的%s 。</string>
+  <string name="brand_name">Reef.top Wallet</string>
   <string name="info.insufficient_balance.title">餘額不足</string>
   <string name="info.insufficient_balance.description">您的餘額不足%s ，無法完成此交易。請充值、接收或兌換您的錢包，然後重試。</string>
   <string name="info.account_minimum_balance.title">最低餘額</string>
