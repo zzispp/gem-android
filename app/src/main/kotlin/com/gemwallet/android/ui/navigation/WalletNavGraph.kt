@@ -38,7 +38,6 @@ import com.gemwallet.android.features.main.views.MainScreen
 import com.gemwallet.android.features.onboarding.OnboardingDest
 import com.gemwallet.android.ui.navigation.routes.navigateToReceiveScreen
 import com.gemwallet.android.ui.navigation.routes.receiveScreen
-import com.gemwallet.android.ui.navigation.routes.navigateToAboutUsScreen
 import com.gemwallet.android.ui.navigation.routes.navigateToCurrenciesScreen
 import com.gemwallet.android.ui.navigation.routes.navigateToDevelopScreen
 import com.gemwallet.android.ui.navigation.routes.navigateToNetworksScreen
@@ -271,7 +270,6 @@ fun WalletNavGraph(
                 onBridges = navController::navigateToBridgesScreen,
                 onDevelop = navController::navigateToDevelopScreen,
                 onWallets = navController::navigateToWalletsScreen,
-                onAboutUs = navController::navigateToAboutUsScreen,
                 onNetworks = navController::navigateToNetworksScreen,
                 onChart = navController::navigateToAssetChartScreen,
                 onPriceAlerts = navController::navigateToPriceAlertsScreen,

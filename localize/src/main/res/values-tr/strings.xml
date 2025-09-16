@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">Adres veya Ad</string>
   <string name="common.back">Geri</string>
   <string name="transfer.memo">Hafıza</string>
-  <string name="settings.terms_of_services">Hizmet Şartları</string>
-  <string name="settings.privacy_policy">Gizlilik Politikası</string>
   <string name="settings.title">Ayarları aç</string>
   <string name="settings.developer">Developer</string>
   <string name="settings.version">Sürüm</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">Maksimum</string>
   <string name="common.delete">Silmek</string>
   <string name="common.delete_confirmation">%s silmek istediğinizden emin misiniz?</string>
-  <string name="settings.community">Toplum</string>
   <string name="common.hide">Saklamak</string>
   <string name="wallet.scan">Tara</string>
-  <string name="settings.aboutus">Hakkımızda</string>
   <string name="common.wallet">Cüzdan</string>
   <string name="common.show">%s göster</string>
   <string name="transfer.network">Ağ</string>
@@ -88,8 +84,6 @@
   <string name="settings.currency">Para birimi</string>
   <string name="common.recommended">Tavsiye edilen</string>
   <string name="common.all">Tüm</string>
-  <string name="settings.rate_app">Uygulamayı Değerlendirin</string>
-  <string name="settings.website">Web Sitesini Ziyaret Et</string>
   <string name="transaction.status">Durum</string>
   <string name="transaction.status.confirmed">Başarılı</string>
   <string name="transaction.status.pending">Beklemede</string>
@@ -201,14 +195,7 @@
   <string name="wallet_connect.no_active_connections">Etkin bağlantı yok</string>
   <string name="stake.minimum_amount">Minimum miktar</string>
   <string name="common.no_results_found">Sonuç bulunamadı</string>
-  <string name="social.x">X (eski adıyla Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">Telegram</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">Bağlantılar</string>
-  <string name="social.facebook">Facebook</string>
   <string name="nodes.import_node.title">Jeton Ekle</string>
   <string name="nodes.import_node.chain_id">Zincir Kimliği</string>
   <string name="nodes.import_node.in_sync">Senkronize</string>
@@ -264,8 +251,6 @@
   <string name="common.unpin">Kaldır</string>
   <string name="filter.clear">Temizle</string>
   <string name="filter.title">Filtreler</string>
-  <string name="settings.help_center">Yardım Merkezi</string>
-  <string name="settings.support">Destek</string>
   <string name="settings.price_alerts.title">Fiyat Uyarıları</string>
   <string name="price_alerts.enabled_for">%s için fiyat uyarısı etkinleştirildi</string>
   <string name="price_alerts.disabled_for">Fiyat uyarısı %s için devre dışı bırakıldı</string>

@@ -5,7 +5,6 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.navOptions
-import com.gemwallet.features.settings.aboutus.presents.AboutUsScreen
 import com.gemwallet.features.settings.currency.presents.CurrenciesScene
 import com.gemwallet.features.settings.develop.presents.DevelopScene
 import com.gemwallet.features.settings.networks.presents.NetworksScreen
@@ -31,8 +30,6 @@ object SecurityRoute
 @Serializable
 object DevelopRoute
 
-@Serializable
-object AboutusRoute
 
 @Serializable
 object NetworksRoute
@@ -56,9 +53,6 @@ fun NavController.navigateToDevelopScreen(navOptions: NavOptions? = null) {
     navigate(DevelopRoute, navOptions ?: navOptions { launchSingleTop = true })
 }
 
-fun NavController.navigateToAboutUsScreen(navOptions: NavOptions? = null) {
-    navigate(AboutusRoute, navOptions ?: navOptions { launchSingleTop = true })
-}
 
 fun NavController.navigateToNetworksScreen(navOptions: NavOptions? = null) {
     navigate(NetworksRoute, navOptions ?: navOptions { launchSingleTop = true })
@@ -74,7 +68,6 @@ fun NavGraphBuilder.settingsScreen(
     onWallets: () -> Unit,
     onBridges: () -> Unit,
     onDevelop: () -> Unit,
-    onAboutUs: () -> Unit,
     onNetworks: () -> Unit,
     onPriceAlerts: () -> Unit,
     onChart: (AssetId) -> Unit,
@@ -89,7 +82,6 @@ fun NavGraphBuilder.settingsScreen(
             onCurrencies = onCurrencies,
             onBridges = onBridges,
             onDevelop = onDevelop,
-            onAboutUs = onAboutUs,
             onWallets = onWallets,
             onNetworks = onNetworks,
             onPriceAlerts = onPriceAlerts,
@@ -108,9 +100,6 @@ fun NavGraphBuilder.settingsScreen(
         DevelopScene(onCancel = onCancel)
     }
 
-    composable<AboutusRoute> {
-        AboutUsScreen(onCancel = onCancel)
-    }
 
     composable<NetworksRoute> {
         NetworksScreen(onCancel = onCancel)

@@ -2,6 +2,7 @@ package com.gemwallet.features.settings.settings.presents.views
 
 import android.Manifest
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
@@ -31,6 +32,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
@@ -60,7 +62,6 @@ fun SettingsScene(
     onDevelop: () -> Unit,
     onCurrencies: () -> Unit,
     onWallets: () -> Unit,
-    onAboutUs: () -> Unit,
     onNetworks: () -> Unit,
     onPriceAlerts: () -> Unit,
     scrollState: ScrollState = rememberScrollState()
@@ -68,12 +69,11 @@ fun SettingsScene(
     val viewModel: SettingsViewModel = hiltViewModel()
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val context = LocalContext.current
-//    val reviewManager = remember { ReviewManager() }
-//    val version = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-//        context.packageManager.getPackageInfo(context.packageName, PackageManager.PackageInfoFlags.of(0))
-//    } else {
-//        context.packageManager.getPackageInfo(context.packageName, 0)
-//    }.versionName
+    val version = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+        context.packageManager.getPackageInfo(context.packageName, PackageManager.PackageInfoFlags.of(0))
+    } else {
+        context.packageManager.getPackageInfo(context.packageName, 0)
+    }.versionName
     var isShowDevelopEnable by remember { mutableStateOf(false) }
 
     val uriHandler = LocalUriHandler.current
@@ -162,24 +162,18 @@ fun SettingsScene(
             }
             HorizontalDivider(modifier = Modifier, thickness = 0.4.dp)
 
-            LinkItem(
-                title = stringResource(id = R.string.settings_help_center),
-                icon = R.drawable.settings_help_center,
-            ) {
-                uriHandler.open(
-                    context,
-                    Config().getDocsUrl(DocsUrl.START).toUri()
-                        .buildUpon()
-                        .appendQueryParameter("utm_source", "gemwallet_android")
-                        .build()
-                        .toString()
-                )
-            }
             Box(modifier = Modifier.fillMaxWidth()) {
                 LinkItem(
-                    title = stringResource(id = R.string.settings_aboutus),
+                    title = stringResource(id = R.string.settings_version),
                     icon = R.drawable.settings_about_us,
-                    onClick = onAboutUs,
+                    trailingContent = {
+                        Text(
+                            text = version ?: "Unknown",
+                            textAlign = TextAlign.Center,
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+                    },
+                    onClick = {},
                     onLongClick = { isShowDevelopEnable = true }
                 )
                 DropdownMenu(

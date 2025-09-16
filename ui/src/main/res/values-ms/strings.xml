@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">Address or Name</string>
   <string name="common.back">Back</string>
   <string name="transfer.memo">Memo</string>
-  <string name="settings.terms_of_services">Terms of Services</string>
-  <string name="settings.privacy_policy">Privacy Policy</string>
   <string name="settings.title">Settings</string>
   <string name="settings.developer">Developer</string>
   <string name="settings.version">Version</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">Max</string>
   <string name="common.delete">Delete</string>
   <string name="common.delete_confirmation">Are sure you want to delete %s?</string>
-  <string name="settings.community">Community</string>
   <string name="common.hide">Hide</string>
   <string name="wallet.scan">Scan</string>
-  <string name="settings.aboutus">About Us</string>
   <string name="common.wallet">Wallet</string>
   <string name="common.show">Show %s</string>
   <string name="transfer.network">Network</string>
@@ -87,8 +83,6 @@
   <string name="settings.currency">Currency</string>
   <string name="common.recommended">Recommended</string>
   <string name="common.all">All</string>
-  <string name="settings.rate_app">Rate App</string>
-  <string name="settings.website">Visit Website</string>
   <string name="transaction.status">Status</string>
   <string name="transaction.status.confirmed">Successful</string>
   <string name="transaction.status.pending">Pending</string>
@@ -198,14 +192,7 @@
   <string name="wallet_connect.no_active_connections">No active connections</string>
   <string name="stake.minimum_amount">Jumlah minimum</string>
   <string name="common.no_results_found">No Results Found</string>
-  <string name="social.x">X (formerly Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">Telegram</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">Links</string>
-  <string name="social.facebook">Facebook</string>
   <string name="nodes.import_node.title">Add node</string>
   <string name="nodes.import_node.chain_id">Chain ID</string>
   <string name="nodes.import_node.in_sync">In Sync</string>
@@ -261,8 +248,6 @@
   <string name="common.unpin">Unpin</string>
   <string name="filter.clear">Clear</string>
   <string name="filter.title">Filters</string>
-  <string name="settings.help_center">Help Center</string>
-  <string name="settings.support">Support</string>
   <string name="settings.price_alerts.title">Price Alerts</string>
   <string name="price_alerts.enabled_for">Price alert enabled for %s</string>
   <string name="price_alerts.disabled_for">Price alert disabled for %s</string>

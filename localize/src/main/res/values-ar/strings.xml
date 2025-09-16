@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">العنوان أو الاسم</string>
   <string name="common.back">Back</string>
   <string name="transfer.memo">Memo</string>
-  <string name="settings.terms_of_services">Terms of Services</string>
-  <string name="settings.privacy_policy">Privacy Policy</string>
   <string name="settings.title">Settings</string>
   <string name="settings.developer">Developer</string>
   <string name="settings.version">Version</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">الأعلى</string>
   <string name="common.delete">يمسح</string>
   <string name="common.delete_confirmation">هل أنت متأكد أنك تريد حذف %s ؟</string>
-  <string name="settings.community">مجتمع</string>
   <string name="common.hide">يخفي</string>
   <string name="wallet.scan">مسح</string>
-  <string name="settings.aboutus">معلومات عنا</string>
   <string name="common.wallet">محفظة</string>
   <string name="common.show">%s</string>
   <string name="transfer.network">شبكة</string>
@@ -88,8 +84,6 @@
   <string name="settings.currency">عملة</string>
   <string name="common.recommended">مُستَحسَن</string>
   <string name="common.all">الجميع</string>
-  <string name="settings.rate_app">قيم التطبيق</string>
-  <string name="settings.website">زيارة الموقع</string>
   <string name="transaction.status">حالة</string>
   <string name="transaction.status.confirmed">ناجح</string>
   <string name="transaction.status.pending">Pending</string>
@@ -201,14 +195,7 @@
   <string name="wallet_connect.no_active_connections">لا توجد اتصالات نشطة</string>
   <string name="stake.minimum_amount">الحد الأدنى للمبلغ</string>
   <string name="common.no_results_found">لم يتم العثور على نتائج</string>
-  <string name="social.x">X (formerly Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">Telegram</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">روابط</string>
-  <string name="social.facebook">Facebook</string>
   <string name="nodes.import_node.title">Add node</string>
   <string name="nodes.import_node.chain_id">Chain ID</string>
   <string name="nodes.import_node.in_sync">In Sync</string>
@@ -264,8 +251,6 @@
   <string name="common.unpin">Unpin</string>
   <string name="filter.clear">Clear</string>
   <string name="filter.title">Filters</string>
-  <string name="settings.help_center">مركز المساعدة</string>
-  <string name="settings.support">يدعم</string>
   <string name="settings.price_alerts.title">تنبيهات الأسعار</string>
   <string name="price_alerts.enabled_for">تم تفعيل تنبيه السعر لـ %s</string>
   <string name="price_alerts.disabled_for">تم تعطيل تنبيه السعر لـ %s</string>

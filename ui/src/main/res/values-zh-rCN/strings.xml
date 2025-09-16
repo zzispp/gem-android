@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">地址或域名</string>
   <string name="common.back">返回</string>
   <string name="transfer.memo">备注</string>
-  <string name="settings.terms_of_services">服务条款</string>
-  <string name="settings.privacy_policy">隐私政策</string>
   <string name="settings.title">设置</string>
   <string name="settings.developer">开发者</string>
   <string name="settings.version">版本</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">最大值</string>
   <string name="common.delete">删除</string>
   <string name="common.delete_confirmation">确认删除%s吗？</string>
-  <string name="settings.community">社区</string>
   <string name="common.hide">隐藏</string>
   <string name="wallet.scan">扫码</string>
-  <string name="settings.aboutus">关于我们</string>
   <string name="common.wallet">钱包</string>
   <string name="common.show">显示%s</string>
   <string name="transfer.network">网络</string>
@@ -87,8 +83,6 @@
   <string name="settings.currency">货币</string>
   <string name="common.recommended">推荐</string>
   <string name="common.all">全部</string>
-  <string name="settings.rate_app">评价应用</string>
-  <string name="settings.website">访问网站</string>
   <string name="transaction.status">状态</string>
   <string name="transaction.status.confirmed">成功</string>
   <string name="transaction.status.pending">待确认</string>
@@ -198,14 +192,7 @@
   <string name="wallet_connect.no_active_connections">没有活跃的连接</string>
   <string name="stake.minimum_amount">最低金额</string>
   <string name="common.no_results_found">未找到结果</string>
-  <string name="social.x">X（前 Twitter）</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">红迪</string>
-  <string name="social.telegram">电报</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">油管</string>
   <string name="social.links">链接</string>
-  <string name="social.facebook">脸书</string>
   <string name="nodes.import_node.title">添加节点</string>
   <string name="nodes.import_node.chain_id">链 ID</string>
   <string name="nodes.import_node.in_sync">已同步</string>
@@ -261,8 +248,6 @@
   <string name="common.unpin">取消置顶</string>
   <string name="filter.clear">清除</string>
   <string name="filter.title">筛选</string>
-  <string name="settings.help_center">帮助中心</string>
-  <string name="settings.support">支持</string>
   <string name="settings.price_alerts.title">价格提醒</string>
   <string name="price_alerts.enabled_for">已为%s启用价格提醒</string>
   <string name="price_alerts.disabled_for">已禁用%s的价格提醒</string>

@@ -222,8 +222,6 @@ dependencies {
     implementation(project(":features:earn:stake:viewmodels"))
     implementation(project(":features:earn:delegation:presents"))
     implementation(project(":features:earn:delegation:viewmodels"))
-    implementation(project(":features:settings:aboutus:presents"))
-    implementation(project(":features:settings:aboutus:viewmodels"))
     implementation(project(":features:settings:currency:presents"))
     implementation(project(":features:settings:currency:viewmodels"))
     implementation(project(":features:settings:develop:presents"))

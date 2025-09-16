@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">Адрес или имя</string>
   <string name="common.back">Назад</string>
   <string name="transfer.memo">Мемо</string>
-  <string name="settings.terms_of_services">Условия предоставления услуг</string>
-  <string name="settings.privacy_policy">Политика конфиденциальности</string>
   <string name="settings.title">Настройки</string>
   <string name="settings.developer">Разработчик</string>
   <string name="settings.version">Версия</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">Макс</string>
   <string name="common.delete">Удалить</string>
   <string name="common.delete_confirmation">Вы уверены, что хотите удалить %s ?</string>
-  <string name="settings.community">Сообщество</string>
   <string name="common.hide">Скрыть</string>
   <string name="wallet.scan">Сканировать</string>
-  <string name="settings.aboutus">О нас</string>
   <string name="common.wallet">Кошелек</string>
   <string name="common.show">Показать %s</string>
   <string name="transfer.network">Сеть</string>
@@ -87,8 +83,6 @@
   <string name="settings.currency">Валюта</string>
   <string name="common.recommended">Рекомендуемые</string>
   <string name="common.all">Все</string>
-  <string name="settings.rate_app">Оценить приложение</string>
-  <string name="settings.website">Посетить сайт</string>
   <string name="transaction.status">Статус</string>
   <string name="transaction.status.confirmed">Успешный</string>
   <string name="transaction.status.pending">В ожидании</string>
@@ -198,14 +192,7 @@
   <string name="wallet_connect.no_active_connections">Нет активных подключений</string>
   <string name="stake.minimum_amount">Минимальная сумма</string>
   <string name="common.no_results_found">Результатов не найдено</string>
-  <string name="social.x">X (бывший Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">Телеграм</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">Ссылки</string>
-  <string name="social.facebook">Facebook</string>
   <string name="nodes.import_node.title">Добавить нод</string>
   <string name="nodes.import_node.chain_id">Идентификатор сети</string>
   <string name="nodes.import_node.in_sync">Синхронизировано</string>
@@ -261,8 +248,6 @@
   <string name="common.unpin">Открепить</string>
   <string name="filter.clear">Очистить</string>
   <string name="filter.title">Фильтры</string>
-  <string name="settings.help_center">Центр помощи</string>
-  <string name="settings.support">Поддержка</string>
   <string name="settings.price_alerts.title">Уведомления о ценах</string>
   <string name="price_alerts.enabled_for">Оповещение о цене включено для %s</string>
   <string name="price_alerts.disabled_for">Оповещение о цене отключено для %s</string>

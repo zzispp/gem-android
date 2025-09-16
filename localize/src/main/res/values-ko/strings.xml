@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">주소 또는 이름</string>
   <string name="common.back">Back</string>
   <string name="transfer.memo">Memo</string>
-  <string name="settings.terms_of_services">Terms of Services</string>
-  <string name="settings.privacy_policy">Privacy Policy</string>
   <string name="settings.title">Settings</string>
   <string name="settings.developer">Developer</string>
   <string name="settings.version">Version</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">맥스</string>
   <string name="common.delete">삭제</string>
   <string name="common.delete_confirmation">%s 삭제하시겠습니까?</string>
-  <string name="settings.community">지역 사회</string>
   <string name="common.hide">숨다</string>
   <string name="wallet.scan">주사</string>
-  <string name="settings.aboutus">회사 소개</string>
   <string name="common.wallet">지갑</string>
   <string name="common.show">%s 표시</string>
   <string name="transfer.network">회로망</string>
@@ -88,8 +84,6 @@
   <string name="settings.currency">통화</string>
   <string name="common.recommended">추천</string>
   <string name="common.all">모두</string>
-  <string name="settings.rate_app">앱 평가</string>
-  <string name="settings.website">웹사이트 방문</string>
   <string name="transaction.status">상태</string>
   <string name="transaction.status.confirmed">성공적인</string>
   <string name="transaction.status.pending">Pending</string>
@@ -201,14 +195,7 @@
   <string name="wallet_connect.no_active_connections">활성 연결 없음</string>
   <string name="stake.minimum_amount">최소 금액</string>
   <string name="common.no_results_found">검색 결과가 없습니다</string>
-  <string name="social.x">X (formerly Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">Telegram</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">연결</string>
-  <string name="social.facebook">Facebook</string>
   <string name="nodes.import_node.title">Add node</string>
   <string name="nodes.import_node.chain_id">Chain ID</string>
   <string name="nodes.import_node.in_sync">In Sync</string>
@@ -264,8 +251,6 @@
   <string name="common.unpin">Unpin</string>
   <string name="filter.clear">Clear</string>
   <string name="filter.title">Filters</string>
-  <string name="settings.help_center">도움말 센터</string>
-  <string name="settings.support">지원하다</string>
   <string name="settings.price_alerts.title">가격 알림</string>
   <string name="price_alerts.enabled_for">%s 에 대한 가격 알림이 활성화되었습니다.</string>
   <string name="price_alerts.disabled_for">%s 에 대한 가격 알림이 비활성화되었습니다.</string>

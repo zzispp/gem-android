@@ -36,8 +36,6 @@
   <string name="wallet.import.address_field">地址或域名</string>
   <string name="common.back">返回</string>
   <string name="transfer.memo">備忘</string>
-  <string name="settings.terms_of_services">服務條款</string>
-  <string name="settings.privacy_policy">隱私政策</string>
   <string name="settings.title">設置</string>
   <string name="settings.developer">開發者</string>
   <string name="settings.version">版本</string>
@@ -57,10 +55,8 @@
   <string name="transfer.max">最大值</string>
   <string name="common.delete">刪除</string>
   <string name="common.delete_confirmation">確定要刪除%s嗎？</string>
-  <string name="settings.community">社區</string>
   <string name="common.hide">隱藏</string>
   <string name="wallet.scan">掃描</string>
-  <string name="settings.aboutus">關於我們</string>
   <string name="common.wallet">錢包</string>
   <string name="common.show">顯示%s</string>
   <string name="transfer.network">網路</string>
@@ -88,8 +84,6 @@
   <string name="settings.currency">貨幣</string>
   <string name="common.recommended">推薦</string>
   <string name="common.all">全部</string>
-  <string name="settings.rate_app">評價應用</string>
-  <string name="settings.website">訪問網站</string>
   <string name="transaction.status">狀態</string>
   <string name="transaction.status.confirmed">成功</string>
   <string name="transaction.status.pending">待打包</string>
@@ -201,14 +195,7 @@
   <string name="wallet_connect.no_active_connections">沒有活動連接</string>
   <string name="stake.minimum_amount">最低金額</string>
   <string name="common.no_results_found">未找到結果</string>
-  <string name="social.x">X (前稱 Twitter)</string>
-  <string name="social.discord">Discord</string>
-  <string name="social.reddit">Reddit</string>
-  <string name="social.telegram">電報</string>
-  <string name="social.github">GitHub</string>
-  <string name="social.youtube">YouTube</string>
   <string name="social.links">連結</string>
-  <string name="social.facebook">臉書</string>
   <string name="nodes.import_node.title">添加節點</string>
   <string name="nodes.import_node.chain_id">鏈 ID</string>
   <string name="nodes.import_node.in_sync">已同步</string>
@@ -264,8 +251,6 @@
   <string name="common.unpin">取消置頂</string>
   <string name="filter.clear">清除</string>
   <string name="filter.title">篩選</string>
-  <string name="settings.help_center">幫助中心</string>
-  <string name="settings.support">支援</string>
   <string name="settings.price_alerts.title">價格提醒</string>
   <string name="price_alerts.enabled_for">為%s啟用價格提醒</string>
   <string name="price_alerts.disabled_for">已停用%s的價格提醒</string>
