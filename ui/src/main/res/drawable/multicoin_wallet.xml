@@ -1,21 +1,38 @@
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="100dp" android:viewportHeight="512" android:viewportWidth="512" android:width="100dp">
-      
-    <group>
-            
-        <clip-path android:pathData="M0,0h512v512h-512z"/>
-            
-        <path android:fillColor="#2D5BE6" android:pathData="M0,0h512v512h-512z"/>
-            
-        <path android:fillColor="#2D5BE6" android:pathData="M0,0h512v512h-512z"/>
-            
-        <path android:fillAlpha="0.7" android:fillColor="#ffffff" android:pathData="M256,388.74L426.67,257.26H85.33L256,388.74Z"/>
-            
-        <path android:fillAlpha="0.5" android:fillColor="#ffffff" android:pathData="M256,388.74L341.33,142.22H170.67L256,388.74Z"/>
-            
-        <path android:fillAlpha="0.8" android:fillColor="#ffffff" android:pathData="M170.67,142.22H341.33L426.67,257.26H85.33L170.67,142.22Z"/>
-            
-        <path android:fillAlpha="0.9" android:fillColor="#ffffff" android:fillType="evenOdd" android:pathData="M210.48,257.27H301.52L341.33,142.28H170.67L210.48,257.27Z"/>
-          
-    </group>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:height="100dp" 
+    android:viewportHeight="512" 
+    android:viewportWidth="512" 
+    android:width="100dp"
+    tools:ignore="VectorRaster">
+  <group>
+    <clip-path
+        android:pathData="M128,0L384,0A128,128 0,0 1,512 128L512,384A128,128 0,0 1,384 512L128,512A128,128 0,0 1,0 384L0,128A128,128 0,0 1,128 0z"/>
+    <path
+        android:pathData="M128,0L384,0A128,128 0,0 1,512 128L512,384A128,128 0,0 1,384 512L128,512A128,128 0,0 1,0 384L0,128A128,128 0,0 1,128 0z"
+        android:fillColor="#000000"/>
     
+    <!-- R letter -->
+    <path
+        android:pathData="M134,220 L134,292 L148,292 L148,269 L158,269 L169,292 L183,292 L169,267 Q183,264 183,250 Q183,220 162,220 Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M148,234 L162,234 Q169,234 169,244 Q169,254 162,254 L148,254 Z"
+        android:fillColor="#000000"/>
+    
+    <!-- E letter -->
+    <path
+        android:pathData="M199,220 L199,292 L255,292 L255,283 L213,283 L213,266 L248,266 L248,252 L213,252 L213,234 L255,234 L255,220 Z"
+        android:fillColor="#ffffff"/>
+    
+    <!-- E letter -->
+    <path
+        android:pathData="M269,220 L269,292 L325,292 L325,283 L283,283 L283,266 L318,266 L318,252 L283,252 L283,234 L325,234 L325,220 Z"
+        android:fillColor="#ffffff"/>
+    
+    <!-- F letter -->
+    <path
+        android:pathData="M339,220 L339,292 L353,292 L353,269 L373,269 L373,255 L353,255 L353,234 L381,234 L381,220 Z"
+        android:fillColor="#ffffff"/>
+  </group>
 </vector>

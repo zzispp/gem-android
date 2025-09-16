@@ -5,32 +5,34 @@
     android:viewportWidth="1024"
     android:viewportHeight="1024"
     tools:ignore="VectorRaster">
-  <!-- Black circular background -->
-  <path
-      android:pathData="M512,512m-512,0a512,512 0,1 1,1024 0a512,512 0,1 1,-1024 0"
-      android:fillColor="#000000"/>
-  
-  <!-- REEF text scaled for splash screen -->
-  <!-- R letter -->
-  <path
-      android:pathData="M268,440 L268,584 L296,584 L296,538 L316,538 L338,584 L366,584 L338,534 Q366,528 366,500 Q366,440 324,440 Z"
-      android:fillColor="#ffffff"/>
-  <path
-      android:pathData="M296,468 L324,468 Q338,468 338,488 Q338,508 324,508 L296,508 Z"
-      android:fillColor="#000000"/>
-  
-  <!-- E letter -->
-  <path
-      android:pathData="M398,440 L398,584 L510,584 L510,566 L426,566 L426,532 L496,532 L496,504 L426,504 L426,468 L510,468 L510,440 Z"
-      android:fillColor="#ffffff"/>
-  
-  <!-- E letter -->
-  <path
-      android:pathData="M538,440 L538,584 L650,584 L650,566 L566,566 L566,532 L636,532 L636,504 L566,504 L566,468 L650,468 L650,440 Z"
-      android:fillColor="#ffffff"/>
-  
-  <!-- F letter -->
-  <path
-      android:pathData="M678,440 L678,584 L706,584 L706,538 L746,538 L746,510 L706,510 L706,468 L762,468 L762,440 Z"
-      android:fillColor="#ffffff"/>
+  <group>
+    <clip-path
+        android:pathData="M256,0L768,0A256,256 0,0 1,1024 256L1024,768A256,256 0,0 1,768 1024L256,1024A256,256 0,0 1,0 768L0,256A256,256 0,0 1,256 0z"/>
+    <path
+        android:pathData="M256,0L768,0A256,256 0,0 1,1024 256L1024,768A256,256 0,0 1,768 1024L256,1024A256,256 0,0 1,0 768L0,256A256,256 0,0 1,256 0z"
+        android:fillColor="#000000"/>
+    
+    <!-- R letter -->
+    <path
+        android:pathData="M268,440 L268,584 L296,584 L296,538 L316,538 L338,584 L366,584 L338,534 Q366,528 366,500 Q366,440 324,440 Z"
+        android:fillColor="#ffffff"/>
+    <path
+        android:pathData="M296,468 L324,468 Q338,468 338,488 Q338,508 324,508 L296,508 Z"
+        android:fillColor="#000000"/>
+    
+    <!-- E letter -->
+    <path
+        android:pathData="M398,440 L398,584 L510,584 L510,566 L426,566 L426,532 L496,532 L496,504 L426,504 L426,468 L510,468 L510,440 Z"
+        android:fillColor="#ffffff"/>
+    
+    <!-- E letter -->
+    <path
+        android:pathData="M538,440 L538,584 L650,584 L650,566 L566,566 L566,532 L636,532 L636,504 L566,504 L566,468 L650,468 L650,440 Z"
+        android:fillColor="#ffffff"/>
+    
+    <!-- F letter -->
+    <path
+        android:pathData="M678,440 L678,584 L706,584 L706,538 L746,538 L746,510 L706,510 L706,468 L762,468 L762,440 Z"
+        android:fillColor="#ffffff"/>
+  </group>
 </vector>
