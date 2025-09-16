@@ -17,15 +17,19 @@ import androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL
 import androidx.biometric.BiometricPrompt
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.BasicAlertDialog
+import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -135,8 +139,9 @@ class MainActivity : FragmentActivity(), AuthRequester {
         val intent by viewModel.intent.collectAsStateWithLifecycle()
         val enableSysAuth = enabledSysAuth()
         val authState = (state.initialAuth == AuthState.Required || state.authState == AuthState.Required)
+        val authFailed = (state.authState == AuthState.Fail || state.initialAuth == AuthState.Fail)
 
-        if (authState && enableSysAuth) {
+        if (authState && enableSysAuth && !authFailed) {
             biometricPrompt.authenticate(promptInfo)
         } else {
             if (state.authState == AuthState.Success) {
@@ -147,20 +152,41 @@ class MainActivity : FragmentActivity(), AuthRequester {
             navController.handleDeepLink(intent)
         }
         WalletTheme {
-            if (state.initialAuth == AuthState.Success || !enableSysAuth) {
+            if ((state.initialAuth == AuthState.Success && state.authState != AuthState.Fail) || !enableSysAuth) {
                 WalletApp(navController)
                 OnWalletConnect()
             } else {
                 Box(modifier = Modifier
                     .fillMaxSize()
                     .background(MaterialTheme.colorScheme.surface)) {
-                    Image(
-                        modifier = Modifier
-                            .size(100.dp)
-                            .align(Alignment.Center),
-                        painter = painterResource(id = R.drawable.ic_splash),
-                        contentDescription = "splash"
-                    )
+                    Column(
+                        modifier = Modifier.align(Alignment.Center),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.Center
+                    ) {
+                        Image(
+                            modifier = Modifier.size(100.dp),
+                            painter = painterResource(id = R.drawable.ic_splash),
+                            contentDescription = "splash"
+                        )
+                        Spacer(modifier = Modifier.height(24.dp))
+                        Text(
+                            text = stringResource(R.string.auth_access_message),
+                            style = MaterialTheme.typography.bodyLarge,
+                            color = MaterialTheme.colorScheme.onSurface,
+                            textAlign = TextAlign.Center
+                        )
+                        
+                        // 如果验证失败，显示重试按钮
+                        if (authFailed) {
+                            Spacer(modifier = Modifier.height(16.dp))
+                            Button(
+                                onClick = { retryAuthentication() }
+                            ) {
+                                Text(text = stringResource(R.string.auth_retry_button))
+                            }
+                        }
+                    }
                 }
             }
 
@@ -269,12 +295,9 @@ class MainActivity : FragmentActivity(), AuthRequester {
         executor = ContextCompat.getMainExecutor(this)
         biometricPrompt = BiometricPrompt(this, executor, object : BiometricPrompt.AuthenticationCallback() {
             override fun onAuthenticationError(errorCode: Int, errString: CharSequence) {
-                if (viewModel.uiState.value.initialAuth != AuthState.Success) {
-                    finish()
-                    exitProcess(0)
-                } else {
-                    viewModel.onAuth(AuthState.Fail)
-                }
+                // 用户取消或其他错误时，设置为失败状态让用户重试
+                // 不区分错误类型，统一允许重试
+                viewModel.onAuth(AuthState.Fail)
             }
 
             override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
@@ -307,6 +330,20 @@ class MainActivity : FragmentActivity(), AuthRequester {
             auth(auth)
         } else {
             onSuccess()
+        }
+    }
+
+    private fun retryAuthentication() {
+        if (enabledSysAuth()) {
+            // 重置认证状态为需要验证
+            // 如果是初始验证失败，重置 initialAuth；如果是后续验证失败，通过 requestAuth 重置
+            if (viewModel.uiState.value.initialAuth == AuthState.Fail) {
+                viewModel.onAuth(AuthState.Required)
+            } else {
+                viewModel.requestAuth(AuthRequest.Initial)
+            }
+            // 触发生物识别验证
+            biometricPrompt.authenticate(promptInfo)
         }
     }
 

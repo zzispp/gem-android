@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24h والیوم</string>
   <string name="perpetual.entry_price">داخلے کی قیمت</string>
   <string name="stake.your_staking">آپ کا Staking</string>
+  <string name="auth.access_message">اپنے والیٹ تک رسائی کے لیے برائے کرم تصدیق کریں</string>
+  <string name="auth.retry_button">دوبارہ کوشش کریں</string>
 </resources>

@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">২৪ ঘন্টা ভলিউম</string>
   <string name="perpetual.entry_price">প্রবেশ মূল্য</string>
   <string name="stake.your_staking">ততোমার স্টেকিং</string>
+  <string name="auth.access_message">আপনার ওয়ালেট অ্যাক্সেস করতে অনুগ্রহ করে প্রমাণীকরণ করুন</string>
+  <string name="auth.retry_button">আবার চেষ্টা করুন</string>
 </resources>

@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Volum 24h</string>
   <string name="perpetual.entry_price">Preț de intrare</string>
   <string name="stake.your_staking">Staking-ul tău</string>
+  <string name="auth.access_message">Vă rugăm să vă autentificați pentru a accesa portofelul</string>
+  <string name="auth.retry_button">Încercați din nou</string>
 </resources>

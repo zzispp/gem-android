@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Volume 24 jam</string>
   <string name="perpetual.entry_price">Harga Masuk</string>
   <string name="stake.your_staking">Taruhan Anda</string>
+  <string name="auth.access_message">Harap autentikasi untuk mengakses dompet Anda</string>
+  <string name="auth.retry_button">Coba lagi</string>
 </resources>

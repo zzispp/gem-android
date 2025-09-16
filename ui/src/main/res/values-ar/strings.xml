@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">حجم 24 ساعة</string>
   <string name="perpetual.entry_price">سعر الدخول</string>
   <string name="stake.your_staking">الستيكينج الخاص بك</string>
+  <string name="auth.access_message">يرجى المصادقة للوصول إلى محفظتك</string>
+  <string name="auth.retry_button">حاول مرة أخرى</string>
 </resources>

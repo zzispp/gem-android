@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">נפח של 24 שעות</string>
   <string name="perpetual.entry_price">מחיר כניסה</string>
   <string name="stake.your_staking">ההימור שלך</string>
+  <string name="auth.access_message">אנא אמת את זהותך כדי לגשת לארנק שלך</string>
+  <string name="auth.retry_button">נסה שוב</string>
 </resources>

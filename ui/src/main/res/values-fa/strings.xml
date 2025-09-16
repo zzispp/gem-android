@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">حجم ۲۴ ساعته</string>
   <string name="perpetual.entry_price">قیمت ورودی</string>
   <string name="stake.your_staking">استیکینگ شما</string>
+  <string name="auth.access_message">لطفاً برای دسترسی به کیف پول خود احراز هویت کنید</string>
+  <string name="auth.retry_button">دوباره امتحان کنید</string>
 </resources>

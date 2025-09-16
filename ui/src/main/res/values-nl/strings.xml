@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24-uurs volume</string>
   <string name="perpetual.entry_price">Toegangsprijs</string>
   <string name="stake.your_staking">Uw inzet</string>
+  <string name="auth.access_message">Verifieer uzelf om toegang te krijgen tot uw portemonnee</string>
+  <string name="auth.retry_button">Opnieuw proberen</string>
 </resources>

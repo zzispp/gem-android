@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Objętość 24h</string>
   <string name="perpetual.entry_price">Cena wejścia</string>
   <string name="stake.your_staking">Twoje stakowanie</string>
+  <string name="auth.access_message">Proszę uwierzytelnić się, aby uzyskać dostęp do portfela</string>
+  <string name="auth.retry_button">Spróbuj ponownie</string>
 </resources>

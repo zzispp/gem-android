@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24시간 볼륨</string>
   <string name="perpetual.entry_price">입장료</string>
   <string name="stake.your_staking">귀하의 스테이킹</string>
+  <string name="auth.access_message">지갑에 액세스하려면 인증하세요</string>
+  <string name="auth.retry_button">다시 시도</string>
 </resources>

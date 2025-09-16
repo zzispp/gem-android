@@ -322,4 +322,6 @@
   <string name="common.short_name">Reef.top</string>
   <string name="transfer.activate_asset.title">Activate Asset</string>
   <string name="banner.activate_asset.description" formatted="false">To use the %s asset, you must first enable it on the %s network by fulfilling the network’s specific requirements.</string>
+  <string name="auth.access_message">अपने वॉलेट तक पहुंचने के लिए कृपया प्रमाणीकरण करें</string>
+  <string name="auth.retry_button">फिर से कोशिश करें</string>
 </resources>

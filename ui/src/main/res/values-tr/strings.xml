@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24 saatlik Hacim</string>
   <string name="perpetual.entry_price">Giriş Fiyatı</string>
   <string name="stake.your_staking">Staking’iniz</string>
+  <string name="auth.access_message">Cüzdanınıza erişmek için lütfen kimlik doğrulaması yapın</string>
+  <string name="auth.retry_button">Tekrar dene</string>
 </resources>

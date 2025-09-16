@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Khối lượng 24 giờ</string>
   <string name="perpetual.entry_price">Giá nhập cảnh</string>
   <string name="stake.your_staking">Staking của bạn</string>
+  <string name="auth.access_message">Vui lòng xác thực để truy cập ví của bạn</string>
+  <string name="auth.retry_button">Thử lại</string>
 </resources>

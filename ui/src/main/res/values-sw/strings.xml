@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Sauti ya 24h</string>
   <string name="perpetual.entry_price">Bei ya Kuingia</string>
   <string name="stake.your_staking">Staking yako</string>
+  <string name="auth.access_message">Tafadhali thibitisha ili kufikia pochi yako</string>
+  <string name="auth.retry_button">Jaribu tena</string>
 </resources>

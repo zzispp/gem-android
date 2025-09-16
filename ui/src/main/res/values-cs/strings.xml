@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24hodinový objem</string>
   <string name="perpetual.entry_price">Vstupní cena</string>
   <string name="stake.your_staking">Vaše sázka</string>
+  <string name="auth.access_message">Prosím ověřte se pro přístup k vaší peněžence</string>
+  <string name="auth.retry_button">Zkusit znovu</string>
 </resources>

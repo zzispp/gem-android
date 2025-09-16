@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24-timers volumen</string>
   <string name="perpetual.entry_price">Indgangspris</string>
   <string name="stake.your_staking">Din indsats</string>
+  <string name="auth.access_message">Godkend venligst for at få adgang til din tegnebog</string>
+  <string name="auth.retry_button">Prøv igen</string>
 </resources>

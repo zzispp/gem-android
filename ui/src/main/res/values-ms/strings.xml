@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Kelantangan 24j</string>
   <string name="perpetual.entry_price">Harga Kemasukan</string>
   <string name="stake.your_staking">Staking Anda</string>
+  <string name="auth.access_message">Sila sahkan untuk mengakses dompet anda</string>
+  <string name="auth.retry_button">Cuba lagi</string>
 </resources>

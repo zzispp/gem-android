@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">Volumen de 24 horas</string>
   <string name="perpetual.entry_price">Precio de entrada</string>
   <string name="stake.your_staking">Su participación</string>
+  <string name="auth.access_message">Por favor autentíquese para acceder a su billetera</string>
+  <string name="auth.retry_button">Intentar de nuevo</string>
 </resources>

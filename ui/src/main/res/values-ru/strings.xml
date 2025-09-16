@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24-часовой объем</string>
   <string name="perpetual.entry_price">Цена входа</string>
   <string name="stake.your_staking">Ваш Стейкинг</string>
+  <string name="auth.access_message">Пожалуйста, пройдите аутентификацию для доступа к кошельку</string>
+  <string name="auth.retry_button">Попробовать снова</string>
 </resources>

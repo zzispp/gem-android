@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24時間取引量</string>
   <string name="perpetual.entry_price">入場料</string>
   <string name="stake.your_staking">あなたのステーキング</string>
+  <string name="auth.access_message">ウォレットにアクセスするために認証してください</string>
+  <string name="auth.retry_button">再試行</string>
 </resources>

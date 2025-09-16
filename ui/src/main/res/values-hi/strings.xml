@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24 घंटे की मात्रा</string>
   <string name="perpetual.entry_price">प्रवेश मूल्य</string>
   <string name="stake.your_staking">आपका दांव</string>
+  <string name="auth.access_message">अपने वॉलेट तक पहुंचने के लिए कृपया प्रमाणीकरण करें</string>
+  <string name="auth.retry_button">फिर से कोशिश करें</string>
 </resources>

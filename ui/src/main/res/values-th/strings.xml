@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">ปริมาณ 24 ชั่วโมง</string>
   <string name="perpetual.entry_price">ราคาเข้าชม</string>
   <string name="stake.your_staking">การเดิมพันของคุณ</string>
+  <string name="auth.access_message">กรุณายืนยันตัวตนเพื่อเข้าถึงกระเป๋าเงินของคุณ</string>
+  <string name="auth.retry_button">ลองอีกครั้ง</string>
 </resources>

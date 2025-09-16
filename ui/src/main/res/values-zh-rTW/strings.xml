@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24小時交易量</string>
   <string name="perpetual.entry_price">入場價格</string>
   <string name="stake.your_staking">您的質押</string>
+  <string name="auth.access_message">請驗證身份以訪問您的錢包</string>
+  <string name="auth.retry_button">重試</string>
 </resources>

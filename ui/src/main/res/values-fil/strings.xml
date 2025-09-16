@@ -466,4 +466,6 @@
   <string name="markets.daily_volume">24h Volume</string>
   <string name="perpetual.entry_price">Entry Price</string>
   <string name="stake.your_staking">Ang iyong Staking</string>
+  <string name="auth.access_message">Mangyaring mag-authenticate upang ma-access ang inyong wallet</string>
+  <string name="auth.retry_button">Subukan ulit</string>
 </resources>
